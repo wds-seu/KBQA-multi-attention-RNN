@@ -1,0 +1,1001 @@
+id,s/c,question,e1_gold,e1_predict,e2_gold,e2_predict,type_sc,r1_gold,r1_predict,r2_gold,r2_predict,constraint
+0,C,Which party has come in power in Mumbai North?,mumbai_north_(lok_sabha_constituency),mumbai_north_(lok_sabha_constituency),,,type_false,constituency,region,party,party,no
+1,S,Name the municipality of Roberto Clemente Bridge ?,roberto_clemente_bridge,roberto_clemente_bridge,,,type_true,municipality,municipality,,,no
+2,C,Which royalty was married to ptolemy XIII Theos Philopator and had mother named Cleopatra V ?,cleopatra_v_of_egypt,cleopatra_v_of_egypt,ptolemy_xiii_theos_philopator,ptolemy_xiii_theos_philopator,type_true,mother,parent,spouse,spouse,yes
+3,C,Which person designed the cars which has been designed by ASC Creative Services?,asc_creative_services,asc_creative_services,,,type_true,designCompany,designer,designer,designCompany,yes
+4,S,Is Nikolai Morozov the former coach of Stanislav Morozov?,stanislav_morozov,stanislav_morozov,nikolai_morozov_(figure_skater),nikolai_morozov_(figure_skater),type_true,formerCoach,formerCoach,,,no
+5,S,Did Timm Gunn guest in Sunrise (HIMYM)?,sunrise_(how_i_met_your_mother),sunrise_(how_i_met_your_mother),tim_gunn,,type_true,guests,guest,,,no
+6,C,Which kind of conventions are held in Rosemont Illinois?,rosemont_illinois,rosemont_illinois,,,type_true,location,region,genre,genre,yes
+7,C,Who started at the pole position in both 1997 canadian grand prix and the 94 spanish one?,1997_canadian_grand_prix,1997_canadian_grand_prix,1994_spanish_grand_prix,,type_true,poleDriver,poleDriver,poleDriver,poleDriver,no
+8,S,Is Ombla originate in Croatia?,ombla,ombla,croatia,croatia,type_true,sourceMountain,sourceMountain,,,no
+9,C,In which team did Dave Bing and Ron Reed started their basketball career?,dave_bing,dave_bing,ron_reed,ron_reed,type_true,draftTeam,college,draftTeam,draftTeam,no
+10,C,List some musicians associated with famous guitar players?,guitar,,,,type_true,notableInstruments,associatedBand,associatedMusicalArtist,knownFor,no
+11,C,Who is the person that first ascented the Cathedral Peak and Mount Hoffmann?,cathedral_peak_(california),cathedral_peak_(california),mount_hoffmann,mount_hoffmann,type_true,firstAscentPerson,firstAscentPerson,firstAscentPerson,firstAscentPerson,no
+12,S,Which american football team  has stadium as O.co Coliseum?,o.co_coliseum,oakland_alameda_coliseum,,,type_false,locationCity,recordedIn,,,no
+13,C,What are some artists on the show whose opening theme is Send It On?,send_it_on_(disney's_friends_for_change_song),send_it_on_(disney's_friends_for_change_song),,,type_true,openingTheme,openingTheme,artist,openingTheme,yes
+14,C,Give me the total number of employer of the engineers whose one of the employer is McDonnell Aircraft ?,mcdonnell_aircraft,mcdonnell_aircraft,,,type_true,employer,employer,employer,employer,no
+15,S,Where was Live in Detroit MI recorded ?,live_in_detroit_mi,detroit,,,type_true,recordedIn,recordedIn,,,no
+16,S,who all have been a manager of english under twenty one football team?,england_national_under-21_football_team,england_national_under-21_football_team,,,type_true,managerclubs,managerClub,,,no
+17,C,What awards have been won by the executive producer of Timmy Time ?,timmy_time,timmy_time,,,type_true,executiveProducer,executiveProducer,award,award,no
+18,C,Count all the different purposes followed by the different NGOs.,non-governmental_organization,,,,type_false,type,type,purpose,type,no
+19,C,Which television show's developer is Brian Graden and voices to the character is by Isaac Hayes?,brian_graden,brian_graden,isaac_hayes,isaac_hayes,type_true,developer,developer,voices,voice,yes
+20,C,How many things are crossed over by bridges which can carry cars?,motor_vehicle,,,,type_true,carries,product,crosses,division,no
+21,C,Which arena of WPC Dynamo Moscow is death location of Tigran Petrosian,wpc_dynamo_moscow,wpc_dynamo_moscow,tigran_petrosian,tigran_petrosian,type_true,arena,stadium,deathPlace,deathPlace,no
+22,S,In which time zone is Pong Pha?,pong_pha,pong_pha,,,type_true,timeZone,timeZone,,,no
+23,C,How many rivers start in an English speaking country?,english_language,england,,,type_true,officialLanguage,country,sourceCountry,sourceCountry,yes
+24,S,Was Tim Gunn a guest on The Broken Code?,the_broken_code,,tim_gunn,,type_true,guests,guest,,,no
+25,C,What system is both a platform where Nord runs and also distributed The beauty inside?,nord_(video_game),nord_(video_game),the_beauty_inside,the_beauty_inside,type_true,computingPlatform,computingPlatform,distributor,distributor,no
+26,S,Is Tirana the largest city of Albania?,albania,albania,tirana,tirana,type_true,largestCity,largestCity,,,no
+27,S,Raymond Johansen is the mayor of what city?,raymond_johansen,raymond_johansen,,,type_true,leaderName,leaderName,,,no
+28,C,What was the language of the single which came before To Know Him Is to Love Him?,to_know_him_is_to_love_him,,,,type_true,previousWork,subsequentWork,language,broadcastNetwork,no
+29,C,Where was the narrator of Spain on the Road Again born?,spain..._on_the_road_again,spain..._on_the_road_again,,,type_true,narrator,narrator,birthPlace,birthPlace,no
+30,C,Name a  river with source country as Zambia and source location as Ikelenge  District?,zambia,zambia,ikelenge_district,ikelenge_district,type_true,sourceCountry,sourceCountry,sourceLocation,sourcePlace,yes
+31,S,Which researchers received fellowship from Royal Society?,royal_society,,,,type_false,award,foundationPlace,,,no
+32,C,Who is the office holder with deputies as Neil Brown and Andrew Peacock?,neil_brown_(australian_politician),neil_brown_(australian_politician),andrew_peacock,andrew_peacock,type_true,deputy,deputy,deputy,owner,yes
+33,S,To whom was Tessa Dahl born to?,tessa_dahl,tessa_dahl,,,type_true,parent,hometown,,,no
+34,C,Count the number of religions followed by the alumini of Ananda College.,ananda_college,ananda_college,,,type_true,almaMater,city,religion,religion,no
+35,C,Which city located on Mediterranean Sea is also the stadium of Panionios G.S.S. season ?,2014-5_panionios_g.s.s._season,2014-5_panionios_g.s.s._season,mediterranean_sea,mediterranean_sea,type_true,stadium,ground,cities,riverMouth,no
+36,C,What is the river whose source is Cowombat  Flat and has it's mouth located in Murray Mouth?,cowombat_flat,cowombat_flat,murray_mouth,murray_mouth,type_true,source,source,riverMouth,riverMouth,yes
+37,S,God Defend New Zealand is the national anthem of which country?,god_defend_new_zealand,god_defend_new_zealand,,,type_false,nationalAnthem,anthem,,,no
+38,C,Name the largest city in the county where there is a Cy-Fair High School.,cy-fair_high_school,cy-fair_high_school,,,type_true,county,county,largestCity,largestCity,no
+39,C,What are the academic interests of the past members of Senser?,senser,senser,,,type_false,pastMembers,bandMember,mainInterests,academicDiscipline,no
+40,C,Name the common associate band of Blayse and Teddy Riley ?,blayse,blayse,teddy_riley,teddy_riley,type_true,associatedBand,bandMember,associatedBand,bandMember,no
+41,C,What is the alma mater of the actors of The God Who Wasn't There ?,the_god_who_wasn't_there,,,,type_true,starring,starring,almaMater,almaMater,no
+42,C,What is the leader name of the settlements whose governing body is Municipal council?,municipal_council,municipality,,,type_true,governingBody,governingBody,leaderName,leader,yes
+43,C,Which predecessor of Alexander Downer was deputy to Neil Brown ?,alexander_downer,alexander_downer,neil_brown_(australian_politician),neil_brown_(australian_politician),type_true,predecessor,predecessor,deputy,predecessor,no
+44,C,Who built the stadium which was rented by Costa Rica national football team?,costa_rica_national_football_team,costa_rica_national_football_team,,,type_true,tenants,tenant,builder,builder,yes
+45,C,How many genres of games can I find on the commodore CDTV?,commodore_cdtv,commodore_cdtv,,,type_true,computingPlatform,computingPlatform,genre,genre,no
+46,C,What is the craft of the Ralph Flanders which is also the profession of  Claiborne Pell ?,ralph_flanders,ralph_flanders,claiborne_pell,claiborne_pell,type_true,occupation,relation,profession,profession,no
+47,S,Does the US route 281 have a junction at San Antonio?,u.s._route_281,u.s._route_281,san_antonio,san_antonio,type_true,junction,routeJunction,,,no
+48,S,Give me a count of royalties buried in Rome ?,rome,rome,,,type_true,placeOfBurial,placeOfBurial,,,no
+49,C,Which executive producer of the ultimate merger is also an important person at Trump Productions?,the_ultimate_merger,the_ultimate_merger,trump_productions,trump_productions,type_true,executiveProducer,executiveProducer,keyPerson,keyPerson,no
+50,C,What are some relatives of armymen who died in Germany?,germany,germany,,,type_true,placeOfDeath,mountainRange,relation,relation,yes
+51,S,Greater Napanee is the home town of what people?,greater_napanee,greater_napanee,,,type_true,hometown,hometown,,,no
+52,S,In which state is the Channel district?,channel_district,channel_district,,,type_true,state,state,,,no
+53,S,What is Jon Speelman famous for?,jon_speelman,jon_speelman,,,type_true,field,almaMater,,,no
+54,C,What is the name of the artist which worked on the subsequent work of Ella Loves Cole ?,ella_loves_cole,ella_loves_cole,,,type_true,subsequentWork,subsequentWork,artist,subsequentWork,no
+55,C,What are some companies which are founded in Dallas Jurisdiction?,dallas,dallas,,,type_true,governingBody,foundationPlace,foundationPlace,foundationPlace,yes
+56,C,Name the movies distributed by RKO Pictures and has music composer as Bernard Herrmann?,rko_pictures,rko_pictures,bernard_herrmann,bernard_herrmann,type_true,distributor,distributor,musicComposer,musicComposer,yes
+57,C,Who is the artist of Sings Kristofferson and also performed Milk Cow Blues atleast once?,sings_kristofferson,sings_kristofferson,milk_cow_blues,,type_true,artist,artist,artist,subsequentWork,no
+58,C,What is the life stance of the ethnic groups related to Micronesia ?,micronesia,federated_states_of_micronesia,,,type_true,related,related,religion,religion,yes
+59,S,What is the magazine which have been  founded by Ralph J. Gleason?,ralph_j._gleason,ralph_j._gleason,,,type_false,founder,founder,,,no
+60,C,Count the number of sports team members  which have player named Matt Williams ?,matt_williams_(new_zealand_footballer),matt_williams_(new_zealand_footballer),,,type_true,name,currentMember,name,currentMember,no
+61,C,Which sports are played in schools affiliated with the Harvest Christian Center?,harvest_christian_center,harvest_christian_center,,,type_true,religiousAffiliation,religion,sport,sport,yes
+62,C,Name the river with source as Shannon Pot and its mouth is located in Limerick?,shannon_pot,shannon_pot,limerick,limerick,type_true,source,source,mouthLocation,mouthPlace,yes
+63,C,List the people who were born in Gelnhausen and graduated from Pepperdine University?,gelnhausen,gelnhausen,pepperdine_university,pepperdine_university,type_true,birthPlace,birthPlace,education,education,yes
+64,C,Count all the ethinic group who speaks language which belongs to Anglo-Frisian language family ?,anglo-frisian_languages,anglo-frisian_languages,,,type_true,languageFamily,languageFamily,languages,spokenIn,yes
+65,S,Whos a famous relative of anne spielberg?,anne_spielberg,anne_spielberg,,,type_true,relation,relation,,,no
+66,S,List the director of The Adventures of mimi ?,the_adventures_of_mimi_(video),arlington_county_virginia,,,type_true,director,director,,,no
+67,S,Count the units garrisoned at Arlington County Virginia.,arlington_county_virginia,time_inc.,,,type_false,garrison,garrison,,,no
+68,C,Who designed the bridge in Oddamavadi?,oddamavadi,oddamavadi,,,type_false,locatedInArea,crosses,designer,maintainedBy,yes
+69,C,how many companies are located in a spanish speaking region?,spanish_language,spain,,,type_true,language,regionServed,location,mountainRange,yes
+70,S,How many golf players are there in Arizona State Sun Devils ?,arizona_state_sun_devils,arizona_state_sun_devils,,,type_false,college,champion,,,no
+71,C,Which tenant of New Sanno Hotel is the military branch of the Gary Holder-Winfield ?,new_sanno_hotel,new_sanno_hotel,gary_holder-winfield,gary_holder-winfield,type_true,tenant,tenant,militaryBranch,militaryBranch,no
+72,S,List the newspapers whose offices are situated in 1211 Avenue of the Americas?,1211_avenue_of_the_americas,1211_avenue_of_the_americas,,,type_false,headquarter,locationCity,,,no
+73,C,How many developers have games where I can hear Lightning McQueen?,lightning_mcqueen,lightning_mcqueen,,,type_true,voice,voice,developer,developer,no
+74,S,List the ingredient of Blodpalt ?,blodpalt,blodpalt,,,type_true,ingredient,ingredient,,,no
+75,C,What is the total number of other tenant of the stadia whose one of the tenant is Raptors 905?,raptors_905,raptors_905,,,type_true,tenant,tenant,tenant,tenant,no
+76,S,List the battles fought by  Ali Habib Mahmud ?,ali_habib_mahmud,ali_habib_mahmud,,,type_true,battles,battle,,,no
+77,C,Count the number teams which have  former ice hockey players which also included American Hockey League ?,american_hockey_league,american_hockey_league,,,type_true,formerTeam,formerTeam,formerTeam,formerTeam,no
+78,C,What is the largest city of the country which hosted the 1951 Asian Games?,1951_asian_games,1951_asian_games,,,type_true,hostCity,city,largestCity,territory,yes
+79,C,Members of how many political parties have died in Delhi?,delhi,delhi,,,type_true,placeOfDeath,honours,party,party,no
+80,C,Where do current famous NatGeo photographers live?,national_geographic_(magazine),natgeo_channel,,,type_false,knownFor,knownFor,residence,residence,yes
+81,S,Is Hyundai Lavita assembled in Malaysia?,hyundai_lavita,hyundai_lavita,malaysia,malaysia,type_true,assembly,designCompany,,,no
+82,C,Name the common university of the Cardinal and Jim Wylie?,stanford_cardinal,st._louis_cardinals,jim_wylie,jim_wylie,type_true,university,university,university,university,no
+83,C,From how many different institutes have the members of Judge Advocate General's Corps graduated?,judge_advocate_general's_corps_united_states_army,judge_advocate_general's_corps_united_states_army,,,type_true,militaryRank,militaryUnit,almaMater,basedOn,yes
+84,S,Is Mike Babcock the head coach of Toronto Maple Leafs?,toronto_maple_leafs,toronto_maple_leafs,mike_babcock,mike_babcock,type_true,headCoach,generalManager,,,no
+85,C,Where is the king buried whose predecessor was Iyasu II?,iyasu_ii,iyasu_ii,,,type_true,predecessor,predecessor,placeOfBurial,placeOfBurial,yes
+86,S,What honours did Reigh Count receive?,reigh_count,reigh_count,,,type_true,honours,breeder,,,no
+87,S,Does the St lawrence river start in Kingston Ontario?,saint_lawrence_river,lawrence_of_rome,kingston_ontario,kingston_ontario,type_true,sourceMountain,sourceMountain,,,no
+88,S,Who is the fictional character whose relative is Vestigial Peter?,vestigial_peter,vestigial_peter,,,type_true,relative,previousWork,,,no
+89,S,What is the company to which Fusajiro Yamauchi proprietor to ?,fusajiro_yamauchi,fusajiro_yamauchi,,,type_true,foundedBy,foundedBy,,,no
+90,C,Who is the performer of the album whose subsequent work is Willie Nelson and Family ?,willie_nelson_and_family,willie_nelson_and_family,,,type_true,subsequentWork,subsequentWork,artist,artist,no
+91,S,Name the debut team of Dan Otero ?,dan_otero,dan_otero,,,type_true,debutTeam,debutTeam,,,no
+92,C,Which serving railway line of the Daund Junction railway station was also the place where 99 (2009 film) was recorded ?,daund_junction_railway_station,daund_junction_railway_station,99_(2009_film),99_(2009_film),type_true,servingRailwayLine,servingRailwayLine,recorded,recordedIn,no
+93,C,Which parties have their members live in the PM House Colombo?,prime_minister's_house_(colombo),prime_minister's_house_(colombo),,,type_true,residence,residence,leader,party,yes
+94,C,Name the movie written by Monty Python and distributed by Cinema International Corporation ?,cinema_international_corporation,cinema_international_corporation,monty_python,monty_python,type_true,distributor,distributor,writer,distributor,yes
+95,S,Who is the owner of Saumarez ?,saumarez_(horse),saumarez_(horse),,,type_true,owner,owner,,,no
+96,S,What automobile engine's successor is BMW M40,bmw_m40,bmw_m40,,,type_true,successor,successor,,,no
+97,C,Which shareholder of Naval Air facility Adak is also the operator of New Sanno Hotel ?,new_sanno_hotel,new_sanno_hotel,naval_air_facility_adak,naval_air_facility_adak,type_true,operator,tenant,owner,owner,no
+98,C,Which key person of Clinton Foundation is also the president of Jim Sasser ?,clinton_foundation,clinton_foundation,jim_sasser,jim_sasser,type_true,keyPeople,keyPerson,president,president,no
+99,C,How many cities are around the sea into which the aegean sea flows?,aegean_sea,aegean_region,,,type_true,outflow,outflow,cities,city,yes
+100,C,List the successor of successor of Hayden Stone & Co.,hayden_stone_&_co.,hayden,,,type_true,successor,successor,successor,successor,no
+101,C,What is the branch of the politicians whose governor is Bill Clements?,bill_clements,bill_clements,,,type_true,governor,governor,branch,relation,yes
+102,C,What is the series of the book which is a subsequent work of Blade Runner 2: The Edge of Human ?,blade_runner_2:_the_edge_of_human,blade_runner_2:_the_edge_of_human,,,type_true,subsequentWork,subsequentWork,series,series,yes
+103,C,Give me all commanders which had an important role in both the Battle of Fort Stephenson and Battle of the Thames?,battle_of_fort_stephenson,battle_of_fort_stephenson,battle_of_the_thames,,type_true,commander,commander,commander,commander,no
+104,S,What is the commander of Battle of Brownstown ?,battle_of_brownstown,battle_of_brownstown,,,type_true,commander,commander,,,no
+105,C,How many religions are practiced by diplomats?,diplomacy,diplomacy,,,type_false,profession,profession,religion,religion,no
+106,S,list some companies founded by Jim Harris.,jim_harris_(entrepreneur),jim_harris_(politician),,,type_true,foundedBy,foundedBy,,,no
+107,C,Name the airlines which have a hub in airport in SF?,san_francisco,san_francisco,,,type_true,cityServed,majorShrine,hubs,hubAirport,yes
+108,C,Who is the prime minister of Michael Jeffery who is also the minister of William Deane ?,michael_jeffery,michael_jeffery,william_deane,william_deane,type_true,primeminister,primeMinister,primeMinister,primeMinister,no
+109,S,Who founded the Not on our Watch NGO?,not_on_our_watch_(organization),,,,type_true,foundedBy,foundedBy,,,no
+110,C,What is the military conflict whose commanders are John McEwen and Phm Vn ng?,john_mcewen,john_mcewen,ph?m_v?n_??ng,ph?m_v?n_??ng,type_true,commander,commander,commander,commander,yes
+111,C,In which countries have models hanged themselves?,suicide_by_hanging,,,,type_false,deathCause,deathCause,citizenship,country,yes
+112,C,Which TV show is related to The Sarah Jane Adventures and theme music is composed by  Ron Grainer?,the_sarah_jane_adventures,the_sarah_jane_adventures,ron_grainer,ron_grainer,type_true,related,related,themeMusicComposer,openingTheme,yes
+113,C,Who was in military unit which played the role of Air interdiction?,air_interdiction,air_interdiction,,,type_true,role,type,militaryUnit,aircraftHelicopterMultirole,no
+114,S,Tirana is the largest city of which country?,tirana,tirana,,,type_true,largestCity,largestCity,,,no
+115,C,Marika Gombitov makes songs in which languages?,marika_gombitov,marika_gombitov,,,type_false,artist,artist,language,genre,no
+116,C,What is the area of the broadcast network which has the affiliation with 9TV?,9tv,9tv,,,type_true,affiliation,network,area,broadcastArea,yes
+117,C,What is the mascot of the handball teams in the Turkish Handball Super League?,turkish_handball_super_league,turkish_handball_super_league,,,type_true,league,league,mascot,locationCity,yes
+118,C,How many relatives are there of people fought in the Battle of the Bulge?,battle_of_the_bulge,,,,type_true,battles,battle,relation,relation,no
+119,C,What band made The trial and One of these days song?,the_trial_(song),,one_of_these_days_(instrumental),,type_true,artist,album,musicalArtist,musicalArtist,no
+120,C,In which cities can the beverage related to Barq's be found?,barq's,barq's,,,type_true,related,country,locationCity,country,no
+121,S,How many fictional characters were humans?,human,,,,type_true,species,narrator,,,no
+122,S,Where was James H. Fields buried ?,james_h._fields,james_h._fields,,,type_true,placeofburial,restingPlace,,,no
+123,C,Who has been married to both Penny Lancaster and Alana Stewart?,penny_lancaster,penny_lancaster,alana_stewart,alana_stewart,type_true,spouse,spouse,spouse,spouse,no
+124,C,Name a show hosted by Brian Dunkleman and judged by Harry Connick Jr.?,brian_dunkleman,brian_dunkleman,harry_connick_jr.,harry_connick_jr.,type_true,presenter,presenter,judges,subsequentWork,yes
+125,S,Does Cascade Airways have a hub in Seattle?,cascade_airways,cascade_airways,seattle,seattle,type_true,hubAirport,hubAirport,,,no
+126,C,Who did their highschool from a school whose mascot was a fighting tiger?,fighting_tiger,tiger,,,type_true,mascot,country,highschool,country,no
+127,C,Where did the Vitis Vinifera grapes originate?,vitis_vinifera,vitis_vinifera,,,type_false,species,species,origin,ingredient,yes
+128,S,Who is the leader of Hackweiser ?,hackweiser,hackweiser,,,type_true,leaderName,leaderFunction,,,no
+129,C,Name the university located in Indiana and has affiliations with Kaplan Inc.?,indiana,indiana,kaplan_inc.,kaplan_inc.,type_true,campus,campus,affiliations,affiliation,yes
+130,S,Which technological products were manufactured by Foxconn?,foxconn,foxconn,,,type_true,manufacturer,manufacturer,,,no
+131,C,Name all the bands which have members of QDT in them.,qdt,,,,type_true,bandMember,bandMember,associatedBand,bandMember,no
+132,C,Name the river whose source mountain is Baikal Mountains and mouth location is Arctic Ocean?,baikal_mountains,baikal_mountains,arctic_ocean,arctic_ocean,type_true,sourceMountain,sourcePlace,mouthLocation,riverMouth,yes
+133,C,What is the total number of awards whose presenter's headquarters is Beverly Hills California?,beverly_hills_california,beverly_hills_california,,,type_true,headquarters,governmentType,presenter,award,yes
+134,S,What cities are nearer to Fountain Lake Farm?,fountain_lake_farm,fountain_lake_farm,,,type_true,nearestCity,nearestCity,,,no
+135,S,Was Cliff Burton in Metallica?,metallica,metallica,cliff_burton,cliff_burton,type_true,pastMembers,formerBandMember,,,no
+136,C,Tell me the name of the Prime Time Entertainment Network's TV show whose Artist is Christopher Franke ?,christopher_franke,christopher_franke,prime_time_entertainment_network,,type_true,artist,artist,network,network,yes
+137,C,Which TV show had a judge named Harry Connick Jr. and was presented by Ryan Seacrest?,harry_connick_jr.,harry_connick_jr.,ryan_seacrest,ryan_seacrest,type_true,judges,showJudge,presenter,presenter,yes
+138,C,How many kinds of games can be played on the Amiga?,amiga,amiga,,,type_true,computingPlatform,computingPlatform,genre,genre,no
+139,C,Which governer of Winston Bryant is the president of Joseph Stiglitz ?,winston_bryant,winston_bryant,joseph_stiglitz,joseph_stiglitz,type_true,governor,governor,president,president,no
+140,C,Cable stayed bridges have been used to cross over how many things?,cable-stayed_bridge,cable_television,,,type_true,design,significantProject,crosses,crosses,no
+141,C,What sports can be played in Kharghar's schools,kharghar,,,,type_true,city,region,sport,sport,yes
+142,S,What are the current music bands of Chester Bennington?,chester_bennington,chester_bennington,,,type_true,currentMembers,musicComposer,,,no
+143,S,On what subjects was Broca 's Brain written?,broca's_brain,broca's_brain,,,type_true,subject,previousWork,,,no
+144,C,How many different people own the Timeform award winners?,timeform,timeform,,,type_true,awards,honours,owner,award,yes
+145,S,List presidents of the school whose one of the president is Charles. Prince of Wales ?,charles_prince_of_wales,charles_i_of_england,,,type_false,president,president,,,yes
+146,C,Which political party of Chandra Shekhar is also the political party of Datla Satyanarayana Raju ?,chandra_shekhar,chandra_shekhar,datla_satyanarayana_raju,datla_satyanarayana_raju,type_true,otherParty,party,party,party,no
+147,S,What river originates in Kingston Ontario?,kingston_ontario,kingston_ontario,,,type_true,sourceLocation,sourceMountain,,,no
+148,S,What is the television show whose executive producer is Douglas Netter?,douglas_netter,douglas_netter,,,type_false,executiveProducer,executiveProducer,,,no
+149,C,Which successor of Philippine Ports Authority is the state of origin of Ruben J. Villote ?,philippine_ports_authority,philippine_ports_authority,ruben_j._villote,ruben_j._villote,type_true,successor,successor,stateOfOrigin,stateOfOrigin,no
+150,C,What is the common battle fought by Stephen Urban and Ali Habib Mahmud ?,stephen_urban,stephen_urban,ali_habib_mahmud,ali_habib_mahmud,type_true,battle,battle,battles,battle,no
+151,S,Where did Whitney Wistert debut?,whitey_wistert,whitey_wistert,,,type_true,debutteam,debutTeam,,,no
+152,S,What novels are belong to the genre of Utopian and dystopian fiction?,utopian_and_dystopian_fiction,utopian_and_dystopian_fiction,,,type_false,literaryGenre,genre,,,no
+153,S,What is the programme format of WWTR ?,wwtr,wwtr,,,type_true,programmeFormat,broadcastArea,,,no
+154,C,What is the home ground of the clubs managed by Ciao Zanardi?,caio_zanardi,caio_zanardi,,,type_true,manager,manager,ground,ground,yes
+155,S,Name the office of Richard Coke ?,richard_coke,richard_coke,,,type_true,office,governor,,,no
+156,C,Which allegiance of the John Kotelawala is also the  sovereign state of the Sanath Weerakoon ?,john_kotelawala,john_kotelawala,sanath_weerakoon,sanath_weerakoon,type_true,allegiance,stateOfOrigin,country,country,no
+157,C,Which political party of kumta had affiliation with Indian general election 2004 (Andhra Pradesh) ,kumta,kumta,indian_general_election_2004_(andhra_pradesh),indian_general_election_2004_(andhra_pradesh),type_true,governmentType,governmentType,affiliation,affiliation,no
+158,C,Which composer of Motorpsycho Nitemare has also composed The time are A-Changing ?,motorpsycho_nitemare,motorpsycho_nitemare,the_times_they_are_a-changin'_(musical),,type_true,composer,composer,musicBy,musicBy,no
+159,S,Who are the characters of Batman Live?,batman_live,batman_live,,,type_true,characters,country,,,no
+160,C,Who is buried at the place governed by National Park Service?,national_park_service,national_park_service,,,type_true,governingBody,leader,restingplace,restingPlace,no
+161,C,What show  has theme music composer as Ron Grainer and at the same time  related to Class (2016 TV series)?,ron_grainer,,class_(2016_tv_series),,type_true,themeMusicComposer,openingTheme,related,genre,yes
+162,C,Which nearest city of Jurgens Site is the death place of Jimmie Heuga ?,jurgens_site,jurgens_site,jimmie_heuga,jimmie_heuga,type_true,nearestCity,nearestCity,deathPlace,deathPlace,no
+163,C,On which river are there things belonging to zambezi river authority?,zambezi_river_authority,zambezi_river_authority,,,type_false,owner,headquarter,river,river,no
+164,S,To which political party does Virendra Kataria belongs ?,virendra_kataria,virendra_kataria,,,type_true,party,party,,,no
+165,S,Which are the countires where Pioneer Corporation has flourished?,pioneer_corporation,pioneer_corporation,,,type_true,country,locationCountry,,,no
+166,C,What is the number of occupation of the people who died in tampa bay florida?,tampa_florida,tampa_florida,,,type_true,deathPlace,deathPlace,occupation,occupation,no
+167,C,Whose theme music was composed by a band which collaborated with Phish?,phish,phish,,,type_true,associatedBand,musicalBand,themeMusicComposer,musicComposer,no
+168,C,List the developers who has contributed to both GNOWSYS and GNU TeXmacs ?,gnowsys,gnowsys,gnu_texmacs,gnu_texmacs,type_true,developer,developer,developer,developer,no
+169,S,Who all are known to play the Gibson Guitar Corporation?,gibson_guitar_corporation,gibson_guitar_corporation,,,type_true,notableInstruments,foundationPlace,,,no
+170,C,How many fictional characters are there in a series in which Craig Robinson acted?,craig_robinson_(actor),craig_robinson_(actor),,,type_true,starring,starring,series,series,yes
+171,S,What is the university whose campus is Mount Moosilauke?,mount_moosilauke,mount_moosilauke,,,type_true,campus,campus,,,no
+172,C,What is the owning organisation of the Ford Kansas City Assembly Plant and also the builder of the Ford Y-block engine?,ford_kansas_city_assembly_plant,ford_kansas_city_assembly_plant,ford_y-block_engine,ford_y-block_engine,type_true,owningOrganisation,owningOrganisation,manufacturer,manufacturer,no
+173,C,Which are the predecessors of the cars which are similar to the Oldsmobile 88?,oldsmobile_88,oldsmobile_88,,,type_true,related,relatedMeanOfTransportation,predecessor,relatedMeanOfTransportation,no
+174,C,How many people are there whose children died in Indiana?,indiana,indiana,,,type_true,deathPlace,child,child,child,yes
+175,S,What is the appliance which uses the cpu manufactured by Marvell Technology Group?,marvell_technology_group,marvell_technology_group,,,type_false,cpu,manufacturer,,,no
+176,C,In which team was the person drafted who has studied at the Worcester college Oxford?,worcester_college_oxford,worcester_college,,,type_true,almaMater,almaMater,draftTeam,nationality,yes
+177,S,How many people used to play in the youthclub of FC Barcelona?,fc_barcelona,fc_barcelona,,,type_false,youthclubs,homeArena,,,no
+178,C,What are some movies whose distributors are led by Kevin Tsujihara?,kevin_tsujihara,kevin_tsujihara,,,type_true,keyPerson,keyPerson,distributor,distributor,yes
+179,C,What is the major shrine of the monarchs whose successor is Dragimir of Travunia and Zachlumia?,dragimir_of_travunia_and_zachlumia,zachlumia,,,type_true,successor,successor,majorShrine,ground,yes
+180,C,Name the people whose academic advisor has also mentored the thesis of Alexius Meinong?,alexius_meinong,alexius_meinong,,,type_true,doctoralStudents,doctoralStudent,academicAdvisor,academicAdvisor,yes
+181,C,Which fields of the Paul Demiville is also the faith of Koay Teng Hai ?,paul_demiville,paul_demiville,koay_teng_hai,koay_teng_hai,type_true,fields,academicAdvisor,religion,religion,no
+182,C,Which leader of United States House of Representatives was the appinter of ohn Drayton ?,united_states_house_of_representatives_elections_1788_and_1789,,john_drayton,john_bowlby,type_true,leader,secondLeader,appointer,predecessor,no
+183,S,List all the doctoral student of the scientist who has advised john Bowlby ?,john_bowlby,,,,type_false,doctoralStudents,doctoralStudent,,,yes
+184,S,Is Peter Piper Pizza in the pizza industry?,peter_piper_pizza,peter_piper_pizza,pizza,pizza,type_true,industry,industry,,,no
+185,C,What is the religion of the person who founded the Emel magazine?,emel_(magazine),emel_(magazine),,,type_true,founder,founder,religion,religion,yes
+186,S,What are some apes?,ape,ape,,,type_true,family,order,,,no
+187,C,What is the alma mater of the scientist who is known for Rational analysis ?,rational_analysis,rational_analysis,,,type_true,knownFor,knownFor,almaMater,almaMater,yes
+188,S,Where is the headquarters of Metro Transit ( Minnesota ) ?,metro_transit_(minnesota),metro_transit_(minnesota),,,type_true,headquarters,headquarter,,,no
+189,S,Who are the current members of Insects vs Robots?,insects_vs_robots,insects_vs_robots,,,type_true,currentMembers,bandMember,,,no
+190,S,What magazine companies are of form Limited liability company?,limited_liability_company,the_liability,,,type_false,company,owningCompany,,,no
+191,C,Which owner of the national Herald india is the leader of Kumta ?,the_national_herald_(india),the_national_herald_(india),kumta,kumta,type_true,owner,owner,governmentType,mouthPlace,no
+192,C,Name the river whose mouth mountain is Southend-on-Sea and mouth place is Essex?,southend-on-sea,southend-on-sea,essex,essex,type_true,mouthMountain,mouthMountain,mouthPlace,mouthPlace,yes
+193,S,What rivers originate from Australian Alps?,australian_alps,australian_alps,,,type_true,sourcePlace,sourceMountain,,,no
+194,C,In how many different places have people beatified by Pope Pius X died?,pope_pius_x,pope_pius_x,,,type_true,beatifiedBy,beatifiedBy,deathPlace,deathPlace,yes
+195,C,Who develops the computation platform of Microsoft Expression Encoder ?,microsoft_expression_encoder,microsoft_expression_encoder,,,type_true,computingPlatform,computingPlatform,developer,influencedBy,no
+196,S,What are the track and field events of Jamiatu Muslim Mindanao?,jamiatu_muslim_mindanao,jamiatu_muslim_mindanao,,,type_false,athletics,athletics,,,no
+197,C,How many different songwriters have had their songs recorded in London?,london,london,,,type_true,recordedIn,recordedIn,writer,writer,no
+198,C,What are the common houses of US Congress and the Kansas Legislature?,united_states_congress,united_states_congress,kansas_legislature,kansas_legislature,type_true,houses,institution,house,house,no
+199,C,Which administrative headquarters of the Pulau Ubin is also the resting place of the Nicole Lai,pulau_ubin,pulau_ubin,nicole_lai,nicole_lai,type_true,capital,capital,restingPlace,restingPlace,no
+200,S,Which is the university of Vanderbilt Commodores ?,vanderbilt_commodores,vanderbilt_commodores,,,type_true,university,university,,,no
+201,C,Which athlete was the flag bearer for Switzerland in 2004 and 2008 summer Olympics ?,switzerland_at_the_2004_summer_olympics,,switzerland_at_the_2008_summer_olympics,,type_true,flagbearer,flagBearer,flagbearer,flagBearer,no
+202,C,List some pupils of National Science Medal winning scientists?,national_medal_of_science,national_medal_of_science,,,type_true,prizes,seeAlso,doctoralStudents,academicAdvisor,yes
+203,C,What is the order of the Henry Clay and profession of the William Luther Hill?,henry_clay,henry_clay,william_luther_hill,william_luther_hill,type_true,order,relation,profession,profession,no
+204,S,Name the co-founder of the record labels which have one of the founder as Chris DuBois ?,chris_dubois,chris_dubois,,,type_false,founder,foundedBy,,,yes
+205,C,How many home stadium are there of the soccer club seasons whose chairman is Merritt Paulson?,merritt_paulson,merritt_paulson,,,type_true,chairman,chairman,homeStadium,homeStadium,no
+206,C,Name the scientist whose academic advisor is Karl Ewald Hasse and supervisor is Georg Meissner?,karl_ewald_hasse,karl_ewald_hasse,georg_meissner,georg_meissner,type_true,academicAdvisor,doctoralAdvisor,doctoralAdvisor,doctoralAdvisor,yes
+207,C,Who owns the newspaper which was founded by Nehru?,jawaharlal_nehru,jawaharlal_nehru,,,type_true,founder,foundedBy,owner,owner,yes
+208,C,Count everyone who studied at an institute which are in Suburbs?,suburb,list_of_canberra_suburbs,,,type_true,campus,sisterNewspaper,education,education,no
+209,C,Give me the total number of membership of the organisations which have memebers as  Azerbaijan?,azerbaijan,azerbaijan,,,type_true,membership,riverMouth,membership,homeStadium,no
+210,C,Which show's theme music was composed by Primus and voiced by Isaac Hayes?,primus_(band),primus_(band),isaac_hayes,isaac_hayes,type_true,themeMusicComposer,musicalArtist,voices,musicComposer,yes
+211,C,What are the reason served by Toll Global Express which is also the country of LPGA ?,toll_global_express,toll_global_express,lpga,lpga,type_true,regionServed,regionServed,country,country,no
+212,C,For which games are Sam Loyd and Eric Schiller both famous?,sam_loyd,sam_loyd,eric_schiller,eric_schiller,type_true,knownFor,knownFor,knownFor,knownFor,no
+213,S,Which president of United States had vice president as John Adams?,john_adams,john_adams,,,type_false,vicePresident,president,,,no
+214,C,Where was the successor of Hank Brown born?,hank_brown,hank_brown,,,type_false,successor,successor,birthPlace,birthPlace,no
+215,S,Name the partners of Kelly Brook?,kelly_brook,kelly_brook,,,type_true,partner,partner,,,no
+216,C,Count everyone who lives in a place where Indian English is an official language ?,indian_english,indian_english,,,type_true,officialLanguage,officialLanguage,residence,recordedIn,no
+217,C,Count the  total number of mammals whose phylum is Chordate and order (taxonomy) is Diprotodontia?,chordate,chordate,diprotodontia,diprotodontia,type_true,phylum,division,order,order,no
+218,S,Where does John A Danaher III work?,john_a._danaher_iii,john_a._danaher_iii,,,type_true,office,religion,,,no
+219,S,Who is the person whose home town is Fairmount Indiana?,fairmount_indiana,,,,type_true,hometown,hometown,,,no
+220,C,What disease led to the demise of Letitia MacTavish Hargrave and Martino Martini ?,letitia_mactavish_hargrave,letitia_mactavish_hargrave,martino_martini,martino_martini,type_true,deathCause,restingPlace,deathCause,occupation,yes
+221,S,Is George Lucas the cinematographer of 6-18-67?,6-18-67,6-18-67,george_lucas,george_lucas,type_true,cinematography,cinematography,,,no
+222,C,In which country does the Auckland rugby union team play  ?,auckland_rugby_union_team,auckland_rugby_union_team,,,type_true,league,league,country,country,no
+223,C,What is the total number of participant in conflict of SFOR?,sfor,sfor,,,type_true,battles,battle,battle,battle,no
+224,C,From how many different places have people gone to the Harward Medical School?,harvard_medical_school,harvard_medical_school,,,type_false,institution,almaMater,birthPlace,birthPlace,no
+225,C,How many movies music composers are associated with Demis Roussos ?,demis_roussos,demis_roussos,,,type_true,associatedActs,associatedMusicalArtist,musicComposer,musicComposer,yes
+226,C,Who owns the schools which have a penguin as its mascot?,penguin,penguin,,,type_true,mascot,owningCompany,authority,binomialAuthority,yes
+227,C,In which of the parties that have governed over Rishikesh does Govinda belong too?,govinda_(actor),,rishikesh,,type_true,party,producer,leaderName,governingBody,no
+228,C,How many things are made by companies who produce mass media articles?,mass_media,mass_media,,,type_true,products,product,manufacturer,manufacturer,no
+229,S,Name the rivers who originate from Essex?,essex,essex,,,type_true,mouthPlace,origin,,,no
+230,C,Name the fictional character whose voice's animator is Hardie Gramatky?,hardie_gramatky,hardie_gramatky,,,type_true,animator,animator,voice,portrayer,yes
+231,S,Which bacteria's taxonomic class is Bacilli?,bacilli,bacilli,,,type_true,class,class,,,no
+232,C,Name the fictional character whose relative are Duck family and Clan McDuck?,duck_family_(disney),duck_family_(disney),clan_mcduck,clan_mcduck,type_true,relative,relative,relatives,relative,yes
+233,C,List the movies whose cast member were born in Scotland.,scotland,scotland,,,type_true,birthPlace,birthPlace,starring,starring,yes
+234,S,Where did the 2015 MLS All-Star Game take place?,2015_mls_all-star_game,2015_mls_all-star_game,,,type_true,city,city,,,no
+235,S,Name the directors of Lennon Legend: The Very Best of John Lennon ( DVD ) ?,lennon_legend:_the_very_best_of_john_lennon_(dvd),,,,type_false,director,artist,,,no
+236,C,For how many other teams have the members of Atlant Moscow Oblast played?,atlant_moscow_oblast,atlant_moscow_oblast,,,type_true,playedFor,formerTeam,formerTeam,team,no
+237,C,Janaka Thissakuttiarachchi follows what religion which once employed Atisa Srijnana too?,janaka_thissakuttiarachchi,janaka_thissakuttiarachchi,Ati\u015ba,Ati\u015ba,type_true,religion,religion,occupation,religion,no
+238,C,List the served region of the organisations of Trade association.,trade_association,trade_association,,,type_true,type,type,regionServed,regionServed,yes
+239,S,Who is the owner of the South end ?,the_south_end,the_south_end,,,type_true,owners,owner,,,no
+240,C,What currencies have been prevalent in the country whose national anthem is La Marseillaise?,la_marseillaise,la_marseillaise,,,type_true,anthem,soundRecording,currency,currency,no
+241,C,Which venue of indy PopCon is also the death place of Louis Le Cocqq ?,indy_popcon,indy_popcon,louis_lecocq,louis_lecocq,type_true,venue,location,placeOfDeath,deathPlace,no
+242,C,What state was Cyrus Mann born in and has the famous Downriver ?,downriver,downriver,cyrus_mann,,type_true,state,state,birthPlace,birthPlace,no
+243,S,Count the affiliations of International Union of Anarchists?,international_union_of_anarchists,international_union_of_anarchists,,,type_true,affiliation,homepage,,,no
+244,C,What territory of Sino French War was the battle of Raoul Magrin-Vernerey fought ?,sino-french_war,sino-french_war,raoul_magrin-vernerey,raoul_magrin-vernerey,type_true,territory,battle,battles,battle,no
+245,C,The players born in Bellaire Ohio have played for which team?,bellaire_ohio,bellaire,,,type_true,birthPlace,birthPlace,team,formerTeam,no
+246,C,Where did the graduates of Memphis Tenessee continue their education?,memphis_tennessee,memphis_tennessee,,,type_true,highschool,maintainedBy,school,college,no
+247,C,What is the Location of the Peetz Table Wind Energy Center which is also the state of Ben Nighthorse Campbell ?,peetz_table_wind_energy_center,peetz_table_wind_energy_center,ben_nighthorse_campbell,ben_nighthorse_campbell,type_true,location,location,state,country,no
+248,C,What are some cities which have a Ferris wheel?,ferris_wheel,ferris_wheel,,,type_false,buildingType,artist,locationTown,location,no
+249,C,How many other home stadium are there of the soccer club whose home stadium is Luzhniki Stadium ?,luzhniki_stadium,luzhniki_stadium,,,type_true,homeStadium,homeStadium,homeStadium,homeStadium,no
+250,C,In all the places with a stagecoach where is a Peetz Table Wind Energy Center located too?,stagecoach_colorado,stagecoach_(1966_film),peetz_table_wind_energy_center,energy_centre,type_true,location,nearestCity,location,location,no
+251,C,What are some software which are written in languages that are run on Unix like OS?,unix-like,unix-like,,,type_true,operatingSystem,computingPlatform,programmingLanguage,programmingLanguage,yes
+252,C,List the agencies located someplace lead by Alex Chalk.,alex_chalk,alex_chalk,,,type_true,leaderName,leaderName,location,location,yes
+253,S,Alexander Magleby a rugby player is alma mater to which university?,alexander_magleby,alexander_magleby,,,type_false,university,school,,,no
+254,C,Through which cities do the rivers starting at the Montauk State Park flow?,montauk_state_park,montauk_state_park,,,type_true,sourcePlace,sourcePlace,city,city,yes
+255,C,Name the common alma mater of the Henry Morton Dexter and Jack McGregor,henry_morton_dexter,henry_morton_dexter,jack_mcgregor,jack_mcgregor,type_true,education,stateOfOrigin,education,region,no
+256,S,Name some basketball players who  have played for chicago bulls?,chicago_bulls,chicago_bulls,,,type_false,team,gender,,,no
+257,C,Name the river with source country in Zambia and source region as North-Western Province Zambia?,zambia,zambia,north-western_province_zambia,north-western_province_zambia,type_true,sourceCountry,sourceCountry,sourceRegion,sourceRegion,yes
+258,C,List the products of the company which published Tweenies: Game Time.,tweenies:_game_time,tweenies:_game_time,,,type_true,publisher,publisher,products,product,no
+259,C,Under which president did the predecessor of Simon Ferro work?,simon_ferro,simon_ferro,,,type_false,successor,successor,president,president,no
+260,C,What are some team members of the team based in Camp Nou?,camp_nou,camp_nou,,,type_true,homeStadium,ground,name,team,no
+261,S,Is Cologny a neighbouring city of Geneva?,geneva,geneva,cologny,cologny,type_true,neighboringMunicipalities,neighboringMunicipality,,,no
+262,C,How many pole drivers have been there in grand prixes where first driver was Damon Hill?,damon_hill,damon_hill,,,type_true,firstDriver,poleDriver,poleDriver,poleDriver,yes
+263,S,In which city was The Triple Door ( The Courage album ) performed live?,live_at_the_triple_door_(the_courage_album),,,,type_false,recorded,recordedIn,,,no
+264,C,What is manufactured by a company headed by Kazuo Hirai?,kazuo_hirai,kazuo_hirai,,,type_true,keyPeople,keyPerson,manufacturer,manufacturer,no
+265,C,Who created the Women in the Garden and also the L'Enfant a la tasse ?,women_in_the_garden,itv_(tv_channel),l'enfant_a_la_tasse,l'enfant_a_la_tasse,type_true,artist,museum,artist,author,no
+266,C,Who is the maker of the engine of Ford F-Series first generation ?,ford_f-series_first_generation,ford_f-series_first_generation,,,type_true,engine,engine,manufacturer,manufacturer,no
+267,S,What are the television shows whose starting music is composed by Ron Grainer?,ron_grainer,ron_grainer,,,type_false,themeMusicComposer,musicComposer,,,no
+268,C,Which team has had both Martin prochzka and garry unger as its players ?,martin_prochzka,martin_prochzka,garry_unger,garry_unger,type_true,formerTeam,formerTeam,formerTeam,formerTeam,no
+269,C,Who all have developed softwares for Unix Like OSes?,unix-like,unix-like,,,type_false,operatingSystem,operatingSystem,developer,developer,yes
+270,C,Count the number of battles fought by the military person involved in Morocco ?,morocco,morocco,,,type_true,battles,placeOfBurial,battles,battle,no
+271,C,Where did the plays written by Robert Schenkkan take place?,robert_schenkkan,robert_schenkkan,,,type_true,writer,writer,place,series,yes
+272,C,List the television shows whose network's sister names is N-tv.,n-tv,n-tv,,,type_true,sisterNames,sisterStation,network,network,yes
+273,C,What is the river whose mouth locations are Arctic Ocean and Laptev Sea?,arctic_ocean,arctic_ocean,laptev_sea,laptev_sea,type_true,mouthLocation,riverMouth,mouthLocation,riverMouth,yes
+274,S,Was Lucrezia Tornabuoni the mother of Lorenzo de' Medici?,lorenzo_de'_medici,lorenzo_de'_medici,lucrezia_tornabuoni,lucrezia_tornabuoni,type_true,mother,campus,,,no
+275,C,What is the combatant of the Northwest Indian War and also the ethnic group of the Linda Hogan ,northwest_indian_war,northwest_indian_war,linda_hogan,hulk_hogan,type_true,combatant,battle,ethnicity,ethnicity,no
+276,C,Name the movie with narrator as Trevor Peacock and music composer  as Christophe Beck?,trevor_peacock,trevor_peacock,christophe_beck,christophe_beck,type_true,narrator,narrator,music,musicComposer,yes
+277,S,Did Phillippe Cabot go to Columbia for studying?,phillippe_cabot,phillippe_cabot,columbia_university,columbia_university,type_true,university,university,,,no
+278,S,List the other nicknames of city which has one of the nickname as City of Angels ?,city_of_angels,los_angeles_angels_of_anaheim,,,type_false,nickname,subsequentWork,,,no
+279,S,Which models were featured in Playboy Playmates 1954?,list_of_playboy_playmates_of_1954,list_of_playboy_playmates_of_1954,,,type_true,succeeded,birthPlace,,,no
+280,C,Where is the sister station of Al Arabiya 99 located?,al_arabiya_99,al_arabiya_99,,,type_true,sisterStations,sisterStation,location,city,yes
+281,S,What is the baseball team whose manager is Chip Hale?,chip_hale,chip_hale,,,type_false,manager,manager,,,no
+282,C,Name the movie which has music composed by Elliot Goldenthal and screenplay by Akiva Goldsman ?,elliot_goldenthal,elliot_goldenthal,akiva_goldsman,akiva_goldsman,type_true,music,partner,screenplay,director,yes
+283,C,What awards are won by the screenwriter of Lucky You?,lucky_you_(film),lucky_you_(film),,,type_true,screenplay,cinematography,award,award,no
+284,C,Which birthplace of Liliya Lobanova is also the location of the Snake Island ?,liliya_lobanova,liliya_lobanova,snake_island_(black_sea),snake_island_(black_sea),type_true,birthplace,birthPlace,locationCountry,location,no
+285,S,What is the nationality of Aishath Saffa ?,aishath_saffa,aishath_saffa,,,type_true,nationality,nationality,,,no
+286,C,Who were involved in the wars where Jonathan Haskell battled?,jonathan_haskell,jonathan_haskell,,,type_true,battles,battle,combatant,territory,no
+287,S,What is the currency of Kerguelen Islands ?,kerguelen_islands,kerguelen_islands,,,type_true,currency,currency,,,no
+288,S,Does Jevan Snead play as Quarterback?,jevan_snead,jevan_snead,quarterback,quarterback,type_true,position,formerTeam,,,no
+289,S,Was Queen Latifah in the U.N.I.T.Y. group?,u.n.i.t.y.,u.n.i.t.y.,queen_latifah,queen_latifah,type_true,musicalArtist,musicalArtist,,,no
+290,C,Which office holder owes its allegiance to a state whose capital town is Jamestown Virginia?,jamestown_virginia,jamestown_virginia,,,type_true,capital,capital,allegiance,owner,yes
+291,C,Whose leaders are Willem-Alexander and Fredis Refunjol?,willem-alexander_of_the_netherlands,willem-alexander_of_the_netherlands,fredis_refunjol,fredis_refunjol,type_true,leader,leader,leader,leader,no
+292,C,What are the airlines whose hub airport is operated by the Los Angeles World Airports?,los_angeles_world_airports,los_angeles_world_airports,,,type_true,operator,operator,hubAirport,hubAirport,yes
+293,C,What is used as money for French Southern and Antarctic Lands is also the  product of the Karafarin Bank ?,french_southern_and_antarctic_lands,french_southern,karafarin_bank,karafarin_bank,type_true,currency,currency,product,product,no
+294,C,Which office holder's resting place is in  Palo Alto California and was succeeded by Adrian A. Basora ?,palo_alto_california,palo_alto_california,adrian_a._basora,adrian_a._basora,type_true,restingPlace,restingPlace,successor,predecessor,yes
+295,C,How many bands collaborated with artists who signed up with EMI?,emi,emi,,,type_true,recordLabel,prospectTeam,associatedMusicalArtist,bandMember,yes
+296,C,How many record labels publish works of Jazz fusion?,jazz_fusion,jazz_fusion,,,type_true,genre,recordLabel,recordLabel,recordLabel,no
+297,S,What is the largest city of Pulau Ubin ?,pulau_ubin,pulau_ubin,,,type_true,largestCity,largestCity,,,no
+298,C,Which key person of the Elders is also the president of united World College ?,the_elders_(organization),,united_world_colleges,united_world_colleges,type_true,keyPeople,keyPerson,president,president,no
+299,C,Name the television show directed by Simon Fuller and judged by Jennifier Lopez ?,simon_fuller,simon_fuller,jennifer_lopez,jennifer_lopez,type_true,creator,executiveProducer,judges,subsequentWork,yes
+300,C,Give me some shows owned by BBC one and BBC hd?,bbc_one,bbc_one,bbc_hd,bbc_hd,type_true,network,owningCompany,network,network,yes
+301,C,List out the people who are related to the relatives of Jared Kushner ?,jared_kushner,jared_kushner,,,type_false,relation,relation,relation,relative,no
+302,C,Which license provider of MSX basic is also the designer of Language Integrated Query ?,language_integrated_query,language_integrated_query,msx_basic,msx_basic,type_true,designer,designer,license,license,no
+303,S,Who was the United States president who also served as a governor of Indiana Territory?,indiana_territory,indiana_territory,,,type_false,branch,governmentType,,,no
+304,C,What are the awards received by spouse of Ellen Lundstrom?,ellen_lundstr?m,ellen_lundstr?m,,,type_true,spouse,spouse,awards,award,no
+305,C,Which common prime minister did Graham Richardson and Bon McMullan serve ?,graham_richardson,graham_richardson,bob_mcmullan,bob_mcmullan,type_true,primeMinister,primeMinister,primeMinister,primeMinister,no
+306,S,Name the alma mater of Ernest de Saisset ?,ernest_de_saisset,ernest_de_saisset,,,type_true,almaMater,almaMater,,,no
+307,C,What are some party leaders of the parties which have had a seat in Berlin?,berlin,berlin,,,type_true,headquarter,leaderName,leader,leader,yes
+308,C,What is the city of the Maine School of Science and Mathematics is also the resting place of Charles A. Boutelle ?,maine_school_of_science_and_mathematics,maine_school_of_science_and_mathematics,charles_a._boutelle,charles_a._boutelle,type_true,authority,city,restingplace,restingPlace,no
+309,C,What is the baseball team whose club manager's debut team is Houston Astros?,houston_astros,houston_astros,,,type_true,debutTeam,debutTeam,manager,team,yes
+310,C,List the producer of the television shows distributed by FremantleMedia.,fremantlemedia,fremantlemedia,,,type_true,distributor,distributor,producer,producer,yes
+311,S,What stadium's operator is Stan Kroenke,stan_kroenke,stan_kroenke,,,type_true,operator,operator,,,no
+312,C,List all binomial authority of the insects whose one of the  binomial authority is douard Mntries?,douard_mntries,douard_mntries,,,type_true,binomialAuthority,binomialAuthority,binomialAuthority,jurisdiction,no
+313,S,Name the resting place of Fazlur Rahman Khan ?,fazlur_rahman_khan,fazlur_rahman_khan,,,type_true,restingPlace,restingPlace,,,no
+314,C,List some teams for which someone who has played as a defender now plays?,defenceman,,,,type_true,position,position,team,team,no
+315,C,In which place is the company which is known for Barbara bestor located ?,barbara_bestor,barbara_bestor,,,type_true,knownFor,knownFor,location,locationCity,yes
+316,S,What is the district of Methodist Central Hall Westminster ?,methodist_central_hall_westminster,methodist_central_hall_westminster,,,type_true,district,district,,,no
+317,C,How many religions are followed amongst the people who've worked in the Korean army?,republic_of_korea_army,republic_of_korea_army,,,type_true,militaryBranch,battle,religion,religion,no
+318,C,Which architect of Marine Corps Air Station Kaneohe Bay was also tenant of New Sanno hotel /',marine_corps_air_station_kaneohe_bay,marine_corps_air_station_kaneohe_bay,new_sanno_hotel,new_sanno_hotel,type_true,architect,architect,tenant,tenant,no
+319,C,What is the television show whose channel's parent organisation is Fox Sports?,fox_sports_(united_states),fox_sports_(united_states),,,type_true,parentOrganisation,parentOrganisation,channel,company,yes
+320,C,What are the players whose former teams are Carolina Panthers and Indianapolis Colts?,carolina_panthers,carolina_panthers,indianapolis_colts,indianapolis_colts,type_true,formerTeam,formerTeam,formerTeam,formerTeam,no
+321,C,Deion sanders and Hinkey haines debuted their career with which common team?,hinkey_haines,hinkey_haines,deion_sanders,deion_sanders,type_true,debutteam,debutTeam,debutteam,associatedBand,no
+322,C,What ethinicity of Linda Hogan is also the state of origin of Holmes Colbert ?,linda_hogan,linda_hogan,holmes_colbert,holmes_colbert,type_true,ethnicity,ethnicity,stateOfOrigin,stateOfOrigin,no
+323,C,Where are jockeys in Dubai World Cup from?,dubai_world_cup,dubai_world_cup,,,type_false,race,race,birthPlace,location,yes
+324,S,What is the government type of Ancient Rome ?,ancient_rome,ancient_rome,,,type_true,governmentType,governmentType,,,no
+325,S,Who are the animator of The Skeleton Dance?,the_skeleton_dance,the_skeleton_dance,,,type_true,animator,animator,,,no
+326,S,What are the movies whose screenplay is done by Eric Roth?,eric_roth,eric_roth,,,type_false,screenplay,executiveProducer,,,no
+327,S,What cities are near to Nihoa which is also known as Bird Island ?,nihoa,nihoa,,,type_false,nearestCity,nearestCity,,,no
+328,C,How many cities are around the sea in which the the fig tree bay meets?,fig_tree_bay,fig_tree_bay,,,type_true,inflow,inflow,cities,nearestCity,yes
+329,C,Count the number of families of the Animal kingdom.,animal,animal,,,type_true,kingdom,kingdom,family,family,no
+330,S,Who is the partner of Rob Patterson?,rob_patterson,rob_patterson,,,type_true,partner,partner,,,no
+331,S,Name the parent company of  Ford Air Transport Service ?,ford_air_transport_service,ford_air_transport_service,,,type_true,parentCompany,parentCompany,,,no
+332,S,who developed google videos?,google_videos,google,,,type_true,developer,developer,,,no
+333,S,Does Ford own the Ford Kansas Assembly plant?,ford_kansas_city_assembly_plant,ford_kansas_city_assembly_plant,ford_motor_company,,type_true,owningOrganisation,owningOrganisation,,,no
+334,C,Which political party of Yashpal Kapur is also the owner of National Herald ?,the_national_herald_(india),the_national_herald_(india),yashpal_kapur,yashpal_kapur,type_true,owner,sisterNewspaper,party,party,no
+335,C,Where did the athlete start his career who did his highschool in Red Lion Area School District?,red_lion_area_school_district,red_lion_area_school_district,,,type_true,highschool,highschool,debutteam,highschool,yes
+336,C,Which destination of Emerald Air is also the city served by houston Fort Bend Airport ?,emerald_air_(united_states),emerald_air_(united_states),houston_fort_bend_airport,houston_fort_bend_airport,type_true,destination,destination,cityServed,city,no
+337,C,List the debut team of the baseball player who born in Houston.,houston,houston,,,type_true,birthPlace,birthPlace,debutTeam,debutTeam,yes
+338,S,Is jim harbaugh currently in the Michigan Wolverines?,jim_harbaugh,jim_harbaugh,michigan_wolverines,michigan,type_true,currentteam,formerTeam,,,no
+339,C,List the people with final resting place as Plymouth Vermont and has Samuel W. McCall as predecessor?,plymouth_vermont,,samuel_w._mccall,samuel_w._mccall,type_true,restingPlace,restingPlace,predecessor,predecessor,yes
+340,S,Was christina crawford trained by Booker T?,christina_crawford_(wrestler),christina_crawford_(wrestler),booker_t_(wrestler),booker_t_(wrestler),type_true,trainer,trainer,,,no
+341,C,Which education center Sidney Catlin Partrodge attended which was also the alma mater of Lisa Brummel ?,sidney_catlin_partridge,sidney_catlin_partridge,lisa_brummel,lisa_brummel,type_true,education,education,almaMater,almaMater,no
+342,S,Which driver had the pole position in 1994 Spanish Grand Prix ?,1994_spanish_grand_prix,1994_spanish_grand_prix,,,type_true,poleDriver,poleDriver,,,no
+343,C,Who is the producer of album which has the song Eclipse ?,eclipse_(song),eclipse_stakes,,,type_true,album,producer,producer,producer,yes
+344,S,What is the automobile platform of Chiva bus ?,chiva_bus,chiva_bus,,,type_true,automobilePlatform,automobilePlatform,,,no
+345,C,What teams did the ex teamplayers of lighthouse boy club start their career with?,lighthouse_boys_club,,,,type_true,youthclubs,team,debutteam,team,no
+346,C,Which producer of Purvis Eureka engine is also the owner of Ford Theatre ?,purvis_eureka,purvis_eureka,ford_theatre,ford_theatre,type_true,engine,engine,company,distributor,no
+347,S,Did John Byrne create Emma Frost?,emma_frost,,john_byrne_(comics),,type_true,creators,creator,,,no
+348,C,Among the companies who has product named Chinook who has a key person as Dennis Muilenburg ?,dennis_muilenburg,dennis_muilenburg,boeing_ch-47_chinook,,type_true,keyPeople,keyPerson,products,manufacturer,yes
+349,C,Who gave guest appearances on the show which is the next episode after the Bombshell one?,bombshell_(smash),bombshell_(smash),,,type_true,previousWork,subsequentWork,guests,writer,yes
+350,C,Miluk and Cayuse are still spoken in which part of the world?,miluk_language,miluk_language,cayuse_language,cayuse_oregon,type_true,region,spokenIn,region,language,no
+351,C,Name the fictional character whose relatives are Huey Dewey and Louie and is of species American Pekin duck?,huey_dewey_and_louie,louis_armstrong,american_pekin_duck,american_pekin_duck,type_true,relatives,relative,species,species,yes
+352,S,Who was the coach of marquette Golden Eagles men's basketball team-201213 season ?,2012C13_marquette_golden_eagles_men's_basketball_team,2012C13_marquette_golden_eagles_men's_basketball_team,,,type_false,coach,coach,,,no
+353,C,Which designer of RENFE also owns Renaissance Center ?,renfe_class_333,renfe_operadora,renaissance_center,renaissance_center,type_true,designer,designer,owner,owner,no
+354,C,Name the river which flows through the closest city of Mount Raimer ?,mount_raimer,mount_raimer,,,type_true,nearestCity,mountainRange,river,sourceRegion,no
+355,C,In which region is the rival school of Somerset Massachusetts located?,somerset_massachusetts,,,,type_true,rival,locatedInArea,region,region,yes
+356,S,Who is the relative of Jim Farley (businessman) ?,jim_farley_(businessman),jim_farley_(businessman),,,type_true,relatives,relative,,,no
+357,S,Who is the narrator of The Price of Beauty ?,the_price_of_beauty,the_price_of_beauty,,,type_true,narrator,narrator,,,no
+358,C,What is the area of the Tar Heel Sports Network which is  official residence of the Michael Nichols (photographer) ?,tar_heel_sports_network,tar_heel_sports_network,michael_nichols_(photographer),michael_nichols_(photographer),type_true,area,broadcastArea,residence,residence,no
+359,S,List few Swedish language movies ?,swedish_language,sweden,,,type_true,language,originalLanguage,,,no
+360,C,Which publisher of Lucifer's hammer is also known for Jo Garcia ?,lucifer's_hammer,lucifer's_hammer,jo_garcia,jo_garcia,type_true,publisher,publisher,knownFor,knownFor,no
+361,C,List the driver of SA MArino Grand Prix is also the Pole driver of Canadian Grand Prix ?,1999_san_marino_grand_prix,1999_san_marino_grand_prix,1997_canadian_grand_prix,1981_canadian_grand_prix,type_true,firstDriver,poleDriver,poleDriver,firstDriver,no
+362,S,What are some orthonychidae birds?,orthonychidae,orthonychidae,,,type_true,family,order,,,no
+363,S,Which professional fighter who is also a politician and was elected to House of Representatives of the Philippines?,house_of_representatives_of_the_philippines,house_of_representatives_of_the_philippines,,,type_false,occupation,committeeInLegislature,,,no
+364,S,What is the television show whose related with  Doctor Who Confidential?,doctor_who_confidential,confidential_(magazine),,,type_true,related,previousWork,,,no
+365,C,Name all those buried in a place governed by a city council.,city_council,city_council,,,type_true,governingBody,leaderName,restingPlace,place,no
+366,C,What is the total number of writers whose singles are recorded in Miami?,miami,miami,,,type_true,recordedIn,musicalArtist,writer,writer,no
+367,C,Daniel L D Granger and Job Durfee have based their political career in which US state?,daniel_l._d._granger,daniel_l._d._granger,job_durfee,united_states,type_true,state,region,state,occupation,no
+368,C,What is the common nationality of Viveka Babajee anad Ronny Vencatachellum ?,viveka_babajee,viveka_babajee,ronny_vencatachellum,ronny_vencatachellum,type_true,citizenship,citizenship,nationality,nationality,no
+369,S,Name the office holder whose constituency is Haight Ashbury?,haight-ashbury,san_francisco,,,type_false,constituency,leaderName,,,no
+370,C,What is the common ideology followed by Katyayana and Palang Dharma Party ?,katyayana_(buddhist),katyayana_(mathematician),palang_dharma_party,palang_dharma_party,type_true,religion,religion,ideology,ideology,no
+371,C,Give me the count of all the names of characters created by Frank Miller,frank_miller_(comics),frank_miller_(comics),,,type_true,creators,creator,characterName,closingFilm,no
+372,S,list the founders of Bream Bay ?,bream_bay,bream_bay,,,type_true,founder,founder,,,no
+373,S,List the companies operating in Australia?,australia,australia,,,type_true,regionServed,regionServed,,,no
+374,C,Name the country whose leader's deputy is Piotr Glinski?,piotr_gliski,piotr_gliski,,,type_true,deputy,deputy,leaderName,country,yes
+375,C,Companies founded in Taiwan have typically which divisions?,taiwan,taiwan,,,type_true,foundationPlace,company,division,foundationPlace,yes
+376,C,Where was the predecessor of Sevan Ross born?,sevan_ross,sevan_ross,,,type_false,successor,birthPlace,placeOfBirth,birthPlace,no
+377,C,Who built the stadiums where 2014 FIFA under 17 woman's world cup took place?,2014_fifa_u-17_women's_world_cup,2014_fifa_u-17_women's_world_cup,,,type_true,tenant,tenant,builder,builder,no
+378,S,Name the source of Raa ?,ra拧a_(river),ibm,,,type_true,source,source,,,no
+379,C,In which countries does the sea lie on whose shore is the city of Cumana?,cumana_(company),cumana_(company),,,type_true,cities,nearestCity,country,country,yes
+380,S,Was Nick Jonas a member of the Jonas Brothers?,jonas_brothers,jonas_brothers,nick_jonas,,type_true,pastMembers,formerBandMember,,,no
+381,S,Is Amharic the official language of Ethiopia?,ethiopia,ethiopia,amharic,amharic,type_true,officialLanguage,relatedMeanOfTransportation,,,no
+382,S,Is God Save the Queen the national anthem of United Kingdom?,united_kingdom,united_kingdom,god_save_the_queen,god_save_the_queen,type_true,nationalAnthem,anthem,,,no
+383,S,GetTV is owned by which organisation?,gettv,gettv,,,type_true,parentOrganisation,owningCompany,,,no
+384,S,Who composed the music for Tonight's the Night ?,tonight's_the_night_(2003_musical),bobby_roth,,,type_false,music,musicBy,,,no
+385,C,Bantam Spectra is the publisher of which series?,bantam_spectra,bantam_spectra,,,type_false,publisher,series,series,series,no
+386,C,List the soccer players whose current team has the ground Stoke-on-Trent.,stoke-on-trent,stoke-on-trent,,,type_true,ground,ground,currentclub,ground,yes
+387,C,Which operator of New Sanno Hotel is also the  governing body of the Oahu Railway and Land Company ?,new_sanno_hotel,new_sanno_hotel,oahu_railway_and_land_company,oahu_railway_and_land_company,type_true,operator,tenant,governingBody,governingBody,no
+388,S,What movies have been written by authors of Monty Python ?,monty_python,monty_python,,,type_false,writer,author,,,no
+389,C,List the things for which the relatives of Mrunalini Kunte are known?,mrunalini_kunte,mrunalini_kunte,,,type_false,relative,relative,knownFor,occupation,no
+390,S,Did Bob Dylan write the lyrics of the times they are a changin'?,the_times_they_are_a-changin'_(musical),the_times_they_are_a-changin'_(musical),bob_dylan,bob_dylan,type_true,lyrics,lyrics,,,no
+391,S,Who is a religious figure titled superior general?,superior_general,superior_general,,,type_true,title,knownFor,,,no
+392,C,What is the military unit whose command structures are United States Department of the Navy and United States Department of Defense?,united_states_department_of_the_navy,united_states_department_of_the_navy,united_states_department_of_defense,united_states_department_of_defense,type_true,commandStructure,commandStructure,commandStructure,commandStructure,yes
+393,C,How many TV shows are of the company which are of company which is a subsidiary of Big  Ticket Entertainment ?,big_ticket_entertainment,big_ticket_entertainment,,,type_true,subsidiary,company,company,company,yes
+394,S,Which are the predecessor of Chevrolet Caprice?,chevrolet_caprice,chevrolet_caprice,,,type_true,predecessor,predecessor,,,no
+395,C,What was recorded by Live in Detroit MI and also place of birth of the Bodhin Kjolhede?,live_in_detroit_mi,,bodhin_kjolhede,,type_true,recordedIn,artist,placeOfBirth,birthPlace,no
+396,C,Name a person who works in Open Society Foundation and has wife named Susan Weber Soros ?,open_society_foundations,open_society_foundations,susan_weber_soros,susan_weber_soros,type_true,employer,employer,spouse,spouse,yes
+397,C,What is a common nickname given to both Lyons Township high school and the wheaton college in massachusetts?,lyons_township_high_school,lyons_township_high_school,wheaton_college_(massachusetts),,type_true,nickname,nobelLaureates,nickname,knownFor,no
+398,C,Count the number of religions followed by BJP members.,bharatiya_janata_party,bharatiya_janata_party,,,type_true,party,party,religion,religion,no
+399,C,What is the almamater of the president whose vice president was Enrique Jos Varona?,enrique_jos_varona,enrique_jos_varona,,,type_true,vicePresident,vicePresident,almaMater,vicePresident,no
+400,C,Directors of which movies are buried in Ronda?,ronda,ronda,,,type_true,restingPlace,starring,director,restingPlace,no
+401,C,In which states does the river flow whose left tributary is Toms Creek?,toms_creek_(monocacy_river),toms_creek_(monocacy_river),,,type_true,leftTributary,rightTributary,state,mouthCountry,no
+402,C,Which music band made Take Me There and to which Tedd Riley was associated?,teddy_riley,teddy_riley,take_me_there_(blackstreet_&_m媒a_song),dafenham_wind_turbines,type_true,associatedBand,bandMember,musicalBand,musicalArtist,no
+403,C,Name the team which is owned by Dafenham wind turbines and stood first in 1967 mexican Grand Prix ?,1967_mexican_grand_prix,1967_mexican_grand_prix,dagenham_wind_turbines,,type_true,firstTeam,location,owner,owner,no
+404,C,What are the movies whose music composer uses a Hammond organ?,hammond_organ,organ_(music),,,type_true,instrument,architecturalStyle,musicComposer,musicComposer,yes
+405,C,What religion do the Wickramabahu Centeral College and Neungin High School both follow?,wickramabahu_central_college_(national_school),wickramabahu_central_college_(national_school),neungin_high_school,neungin_high_school,type_true,religiousAffiliation,religion,religiousAffiliation,religion,no
+406,S,Where Everybody knows you is the theme album of which show ?,where_everybody_knows_your_name,everybody_knows_(sonia_album),,,type_false,album,album,,,no
+407,C,What is on the border of the places which fall under crook county municipality oregon?,crook_county_oregon,crook_county_oregon,,,type_true,municipality,municipality,border,border,no
+408,C,Name the company founded in New Mexico and provides Outlook.com as services ?,new_mexico,new_mexico,outlook.com,outlook.com,type_true,foundation,foundationPlace,services,knownFor,yes
+409,S,Who edited Easy street ?,easy_street_(film),easy_street_(film),,,type_true,editing,editing,,,no
+410,C,What religion are the characters of Absolutely Fabulous from?,absolutely_fabulous,absolutely_fabulous,,,type_false,series,starring,religion,religion,yes
+411,C,Where does the river begin whose left tributary is Krapanski Potok?,krapanski_potok,krapanski_potok,,,type_true,leftTributary,riverMouth,source,mouthCountry,no
+412,C,Name all the soccer players who played in a under 18 club for La Liga?,la_liga,la_liga,,,type_true,league,league,youthclubs,team,yes
+413,S,Count the number of region of AN/FSQ-7 Combat Direction Central?,fsq-7_combat_direction_central,fsq-7_combat_direction_central,,,type_false,region,region,,,no
+414,S,Where was Special 26 recorded ?,special_26,special_26,,,type_true,recorded,recordedIn,,,no
+415,S,List the people with Scientology as their religious belief?,scientology,,,,type_true,religion,religion,,,no
+416,C,List common systems are developed by of the Google Videos and written by of the Google Web Toolkit ?,google_videos,google_videos,google_web_toolkit,google_web_toolkit,type_true,developer,developer,author,programmingLanguage,no
+417,S,Is the book The Buddha and his Dhamma a book about Buddhism?,the_buddha_and_his_dhamma,,buddhism,,type_true,literaryGenre,literaryGenre,,,no
+418,C,For a position in which institution were both Jack Ryan and Robert sarvis both appointed?,jack_ryan_(politician),jack_ryan_(politician),robert_sarvis,robert_sarvis,type_true,nominee,nominee,nominee,otherParty,yes
+419,S,Where was Sino-French War fought ?,sino-french_war,sino-french_war,,,type_true,territory,battle,,,no
+420,S,Who is the owner of  Chelsea F.C. ?,chelsea_f.c.,chelsea_f.c.,,,type_true,owner,owner,,,no
+421,C,What is the political party of Arun Chandra Guha and Indira Gandhi?,arun_chandra_guha,arun_chandra_guha,indira_gandhi,indira_gandhi,type_true,party,party,party,party,no
+422,S,How many bacterias are there whose division is Firmicutes?,firmicutes,firmicutes,,,type_false,division,division,,,no
+423,S,What famous politician died in the Petersen House?,petersen_house,petersen_house,,,type_true,deathPlace,deathPlace,,,no
+424,C,Where was the person born who died in Bryn Mawr Hospital?,bryn_mawr_hospital,bryn_mawr_hospital,,,type_true,placeOfDeath,deathPlace,placeOfBirth,deathPlace,no
+425,C,Name the mountain whose parent peak is located in Mexico.,state_of_mexico,mexico,,,type_true,locatedInArea,locatedInArea,parentMountainPeak,parentMountainPeak,yes
+426,S,Where was Ne daj se Nina first aired ?,ne_daj_se_nina,ne_daj_se_nina,,,type_true,firstAired,network,,,no
+427,C,In which country's cuisine ham is an important part?,ham,hamburger_sv,,,type_false,mainIngredient,part,country,keyPerson,no
+428,S,Who operates twin Cities 400 ?,twin_cities_400,,,,type_true,operatedBy,operatedBy,,,no
+429,C,What place did Edwin Adams die at which gave birth to William A Purtell?,edwin_adams_(politician),edwin_adams_(politician),william_a._purtell,william_a._purtell,type_true,placeOfDeath,deathPlace,birthPlace,birthPlace,no
+430,S,Count the water bodies that flow into the North Sea?,north_sea,baltic_sea,,,type_false,inflow,mouthMountain,,,no
+431,C,List the sports of PATTS College of Aeronautics which are of interest of Jon Speelman ?,patts_college_of_aeronautics,,jon_speelman,jon_speelman,type_true,athletics,athletics,field,field,no
+432,C,Name the movies directed by Stanley Kubrick and edited by Anthony Harvey?,stanley_kubrick,stanley_kubrick,anthony_harvey,anthony_harvey,type_true,director,director,editing,editing,yes
+433,S,Did Umkhonto we Sizwe had Nelson Mandela as a commander?,umkhonto_we_sizwe,umkhonto_we_sizwe,nelson_mandela,nelson_mandela,type_true,notableCommanders,notableCommander,,,no
+434,C,Which location city of the Denver Broncos is the place of birth of Steven Clark Cunningham ?,denver_broncos,denver,steven_clark_cunningham,steven_clark_cunningham,type_true,locationCity,locationCity,birthPlace,birthPlace,no
+435,S,in which movies have momoki kochi acted,momoko_kchi,momoko_kchi,,,type_true,starring,starring,,,no
+436,C,What are the television shows whose network's stockholder is Warner Bros. Television?,warner_bros._television,warner_bros._television,,,type_true,owner,owningCompany,network,network,yes
+437,C,Which owner of Chelsea F.C also owns Evraz ?,evraz,evraz,chelsea_f.c.,chelsea_f.c.,type_true,owningCompany,owner,owner,owner,no
+438,S,List the ethnicity of Riley Reid?,riley_reid,riley_reid,,,type_true,ethnicity,ethnicity,,,no
+439,C,Who won the silver medal when the bronze was won by Yang Yilin?,yang_yilin,yang_yilin,,,type_true,bronzeMedalist,bronzeMedalist,silverMedalist,silverMedalist,no
+440,C,Name the office holder with associate as Marcus Calpurnius Bibulus and has a kid named Augustus?,marcus_calpurnius_bibulus,marcus_calpurnius_bibulus,augustus,augustus,type_true,associate,associate,child,associate,yes
+441,S,Is fox belong to the phylum of Chordate?,fox,fox,chordate,chordate,type_true,phylum,phylum,,,no
+442,C,What is the total number of other destinations of the airlines whose one of the destinations is Mediterranean Sea?,mediterranean_sea,mediterranean_sea,,,type_true,destinations,related,destinations,destination,no
+443,S,List the software developed by Shawn Fanning ?,shawn_fanning,shawn_fanning,,,type_true,developer,developer,,,no
+444,C,Count the number of things people who know linguistics are known for ?,linguistics,,,,type_false,knownFor,knownFor,knownFor,knownFor,no
+445,C,Who is the stockholder of the road tunnels operated by the Massachusetts Department of Transportation?,massachusetts_department_of_transportation,massachusetts_department_of_transportation,,,type_true,operator,operatedBy,owner,owner,yes
+446,C,What is the home stadium of the club coached by Justine Omojong?,justine_omojong,justine_omojong,,,type_true,coach,coach,homeStadium,stadium,yes
+447,C,Who is the owner of the website which has the label Seed Eight ?,seed_eight,seed_eight,,,type_true,label,recordLabel,owner,owner,yes
+448,C,What is the organisation whose purposes are Environmentalism and Peace?,environmentalism,environmentalism,peace,peace_river,type_true,purpose,profession,purpose,foundationPlace,yes
+449,C,Name the garrison of the Western Naval Command and line of the Vadodara Junction railway station ?,western_naval_command,western_naval_command,vadodara_junction_railway_station,vadodara_junction_railway_station,type_true,garrison,garrison,line,servingRailwayLine,no
+450,C,Which cloud platform of Google cloud connect also provides services to 21Vianet ?,21vianet,21vianet,google_cloud_connect,google_cloud_connect,type_true,services,service,computingPlatform,computingPlatform,no
+451,C,Who wrote the album coming right before Dead Man's Chest's OST?,pirates_of_the_caribbean:_dead_man's_chest_(soundtrack),pirates_of_the_caribbean:_dead_man's_chest_(soundtrack),,,type_true,nextAlbum,previousWork,writer,writer,yes
+452,C,What is the university to which Erica Frank went and where Ivan Toplak was a club manager?,erica_frank,erica_frank,ivan_toplak,ivan_toplak,type_true,institution,institution,managerClub,managerClub,no
+453,C,What is the hometown of the residents of Martha's vineyards?,martha's_vineyard,martha's_vineyard,,,type_false,residence,hometown,hometown,hometown,no
+454,S,How many soccer manager have been in the Spain nation football team?,spain_national_football_team,spain_national_football_team,,,type_false,nationalteam,managerClub,,,no
+455,C,Who is the owner of  Latvian Wikipedia and Wiktionary ?,latvian_wikipedia,latvian_wikipedia,wiktionary,wiktionary,type_true,owner,owner,owner,owner,no
+456,S,Philadelphia City Council is the governing body of which city?,philadelphia_city_council,philadelphia_city_council,,,type_false,governingBody,governingBody,,,no
+457,C,What nation is Hornito located in where Jamie Bateman Cayn died too?,jaime_bateman_cayn,jaime_bateman_cayn,hornito_chiriqu?,,type_true,deathPlace,birthPlace,country,country,no
+458,C,List the Sci-fi TV shows with theme music given by Ron Grainer?,science_fiction,,ron_grainer,ron_grainer,type_true,genre,openingTheme,themeMusicComposer,openingTheme,yes
+459,C,How many shows belong to the network one of whose sister station is Cartoonite?,cartoonito,cartoonito,,,type_true,sisterStation,sisterStation,network,network,yes
+460,C,Where are all the protected areas near Bend Oregon?,bend_oregon,,,,type_false,nearestCity,countySeat,location,location,yes
+461,S,Count all the stateless people,statelessness,,,,type_true,citizenship,nationality,,,no
+462,C,River which flows into the eugene mahoney state park pass through which states?,eugene_t._mahoney_state_park,eugene_t._mahoney_state_park,,,type_true,mouthLocation,mouthMountain,state,mouthCountry,no
+463,C,For how many cities's teams did David Bowens play?,david_bowens,david_bowens,,,type_true,formerTeam,formerTeam,locationCity,team,yes
+464,C,What is the political party of the daughter of Jawaharlal Nehru ?,jawaharlal_nehru,jawaharlal_nehru,,,type_true,child,relation,party,party,no
+465,S,Where was david Scherman trained ?,david_scherman,david_scherman,,,type_true,training,training,,,no
+466,S,In which country is Sierra del Merendin?,sierra_del_merendn,sierra_del_merendn,,,type_true,country,country,,,no
+467,C,Which teams have used the stadium whose architect was Populous ?,populous_(company),populous_(company),,,type_true,architect,architect,tenant,tenant,yes
+468,C,What is the birthplace of Ludovic Boi which is also the residence of Fernando Augustin?,ludovic_boi,ludovic_boi,fernando_augustin,fernando_augustin,type_true,birthPlace,team,residence,residence,no
+469,C,To which uni. did  sidney c patridge and cyril hume both once went?,sidney_catlin_partridge,,cyril_hume,cyril_hume,type_true,education,deathPlace,education,basedOn,no
+470,S,Name the appointer of William Clark ?,william_clark,william_clark,,,type_true,appointer,appointer,,,no
+471,C,What sport played at Islamic azad uni employes Craig Van Tilbury?,craig_van_tilbury,,islamic_azad_university_central_tehran_branch,,type_true,occupation,occupation,sport,sport,no
+472,C,Whose military units are VMF-218 and VMF-155?,vmf-218,vmf-218,vmf-155,vmf-155,type_true,militaryUnit,militaryUnit,militaryUnit,militaryUnit,no
+473,C,What is the origin of the musical artist of A Todo Romantic Style ?,a_todo_romantic_style,a_todo_romantic_style,,,type_false,artist,artist,origin,musicalBand,no
+474,S,Name all the products produced by the producer of United States dollar ?,united_states_dollar,united_states_dollar,,,type_false,product,product,,,no
+475,C,name the region served by Jerusalem Institue of Justice which was also the conflict region in GazaIsrael ?,jerusalem_institute_of_justice,jerusalem_institue_of_justice,gazaCisrael_conflict,gazaCisrael_conflict,type_true,service,keyPerson,result,place,no
+476,C,What are the awards won by the person who wrote the screen play for Lost in Rio ?,oss_117:_lost_in_rio,,,,type_true,screenplay,starring,awards,award,no
+477,S,Did Annie Leibovitz do the cover of The Road Ahead?,the_road_ahead_(bill_gates_book),,annie_leibovitz,,type_true,coverArtist,literaryGenre,,,no
+478,C,Who  has these major shrines  : Emmitsburg Maryland and Shrine of St. Elizabeth Ann Bayley Seton?,emmitsburg_maryland,emmitsburg,shrine_of_st._elizabeth_ann_bayley_seton,,type_true,majorShrine,majorShrine,majorShrine,majorShrine,no
+479,C,To which places do the flights go by airlines headquartered in the UK?,united_kingdom,united_kingdom,,,type_true,headquarters,operator,destinations,destination,yes
+480,C,Relatives of Moses used to follow which religions?,moses,moses,,,type_true,relative,relation,veneratedIn,veneratedIn,no
+481,C,Who influenced the author of The Shooting of Dan McGrew ?,the_shooting_of_dan_mcgrew_(1924_film),dan_mcgrew,,,type_true,writer,writer,influences,influencedBy,no
+482,C,What is the parent company of the airline whose hub is in Detroit?,detroit,detroit,,,type_true,hubs,parentOrganisation,parentCompany,parent,yes
+483,C,Count the PhD students whose thesis are supervised by National Medal of Science winners?,national_medal_of_science,national_medal_of_science,,,type_true,prizes,award,doctoralStudents,doctoralAdvisor,no
+484,C,Name the artist who made Dream Dancing and is often associated with Joe Pass?,joe_pass,joe_pass,dream_dancing_(album),dream_dancing_(album),type_true,associatedBand,associatedBand,artist,subsequentWork,no
+485,S,What is the relegious affiliations of Katyayana ?,katyayana_(buddhist),katyayana_(buddhist),,,type_true,religion,religion,,,no
+486,C,How many people have led agencies in German occupied Europe?,german-occupied_europe,german-occupied_europe,,,type_true,jurisdiction,jurisdiction,leader,leader,no
+487,S,What is the citizenship of Saima Chowdhury?,saima_chowdhury,saima_chowdhury,,,type_true,citizenship,citizenship,,,no
+488,C,Who was the cover artist of The Adventure of Tom Sawyer also wrote mark Twain Tonight ?,the_adventures_of_tom_sawyer,,mark_twain_tonight,,type_true,coverArtist,coverArtist,writer,author,no
+489,C,What religion do the politicians follow who graduated from the Yokkohama Nationaal University?,yokohama_national_university,yokohama_national_university,,,type_true,almaMater,almaMater,religion,religion,yes
+490,C,Which battles were fought under the president when Chung Won Shik was the prime minister?,chung_won-shik,,,,type_true,primeminister,primeMinister,battles,battle,yes
+491,S,Which are the  automobile platform whose one of the automobile platform is Dodge ?,dodge,dodge,,,type_false,automobilePlatform,automobilePlatform,,,yes
+492,C,Name the islands that belong to the archipelago whose largest city is Papeete?,papeete,papeete,,,type_true,largestCity,largestCity,archipelago,archipelago,no
+493,C,Where did the beverages sold by Refriango originate?,refriango,refriango,,,type_true,manufacturer,manufacturer,origin,origin,yes
+494,C,What is the region served by the governor of Stephen L.R. McNichols ?,stephen_l.r._mcnichols,stephen_l.r._mcnichols,,,type_true,governor,governor,region,regionServed,no
+495,S,Is morrissey in the smiths?,morrissey,morrissey,the_smiths,the_smiths,type_true,associatedBand,formerBandMember,,,no
+496,C,Who is the chancellor of the university whose campus is in Woodlane New Jersey ?,woodlane_new_jersey,woodlane_new_jersey,,,type_true,campus,campus,chancellor,chancellor,yes
+497,S,Did the New Way party merge in the One Israel party?,new_way_(israel),,one_israel,,type_true,mergedIntoParty,otherParty,,,no
+498,S,Name some ww1 veterans?,world_war_i,,,,type_true,battles,origin,,,no
+499,C,Where can one find some quick bread in the world?,quick_bread,quick_(1932_film),,,type_false,type,ingredient,region,region,no
+500,S,Was John Muir the first one to ascend one of the peaks in the cathedral peak?,cathedral_peak_(california),cathedral_peak_(california),john_muir,john_muir,type_true,firstAscentPerson,firstAscentPerson,,,no
+501,S,What musicians are signed up with colpix records?,colpix_records,colpix_records,,,type_true,label,recordLabel,,,no
+502,C,What is the river whose source region is North-Western Province Zambia and river mouth is Indian Ocean?,north-western_province_zambia,north-western_province_zambia,indian_ocean,indian_ocean,type_true,sourceRegion,sourceRegion,riverMouth,riverMouth,yes
+503,C,What awards have been given to race horses bred by Bert Michell?,bert_s._michell,bert_s._michell,,,type_true,trainer,trainer,honours,honours,yes
+504,C,What sports are played in schools where Swahili is the official language?,swahili_language,,,,type_true,language,language,sport,sport,no
+505,C,Which famous horserace has seen both Fergie sutherland and the illustrious War of Attrition?,war_of_attrition_(horse),,fergie_sutherland,fergie_sutherland_of_attrition,type_true,race,trainer,race,occupation,no
+506,C,Which governer of Winston bryant is also the president of Carl Stokes ?,winston_bryant,winston_bryant,carl_stokes,carl_stokes,type_true,governor,governor,president,president,no
+507,C,Which military unit garrison is Arlington County Virginia and The Pentagon?,arlington_county_virginia,arlington_county_virginia,the_pentagon,,type_true,garrison,garrison,garrison,garrison,yes
+508,S,Was John Boehner the winner of the US House of Representatives elections in Ohio in 2010?,united_states_house_of_representatives_elections_in_ohio_2010,,john_boehner,john_boehner,type_true,incumbent,seeAlso,,,no
+509,C,What is the alma mater of the scientist  whose PhD advisor is Jean-Claude Latombe ?,jean-claude_latombe,jean-claude_latombe,,,type_true,doctoralAdvisor,doctoralAdvisor,almaMater,almaMater,yes
+510,C,What is the river whose mouth mountain is St. Louis and right tributary is Madison River?,st._louis,st._louis,madison_river,madison_river,type_true,mouthMountain,riverMouth,rightTributary,riverMouth,yes
+511,S,Name the country with currency as Aureus ?,aureus,staphylococcus_aureus,,,type_true,currency,currency,,,no
+512,C,Where is the headquarters of the public transit system which owns Target Field a Metro Transit Station  ?,target_field_(metro_transit_station),metro_transit_station,,,type_true,owningOrganisation,owningOrganisation,headquarters,routeStart,no
+513,C,Which party won both the general election and the andhra pradesh election in 2004?,indian_general_election_2004_(delhi),,indian_general_election_2004_(andhra_pradesh),general_election_the_andhra_pradesh_election_in_2004,type_true,affiliation,affiliation,affiliation,affiliation,no
+514,S,Which airlines fly to Gimhae International Airport?,gimhae_international_airport,gimhae_international_airport,,,type_true,targetAirport,targetAirport,,,no
+515,S,Where is Denver Broncos located ?,denver_broncos,denver,,,type_true,locationCity,locationCity,,,no
+516,C,What is the birthplace of Adugna Deyas and the place where Fiq is located?,fiq_ethiopia,fiqh,adugna_deyas,adugna_deyas,type_true,country,isPartOf,birthPlace,birthPlace,no
+517,C,Name the movies for which music was given by  Geoffrey Burgon and distributed by Cinema International Corporation?,geoffrey_burgon,geoffrey_burgon,cinema_international_corporation,cinema_international_corporation,type_true,music,musicComposer,distributor,distributor,yes
+518,C,Count the total number of academic discipline of the journals whose one of the academic discipline is Neuroimaging ?,neuroimaging,neuroimaging,,,type_true,academicDiscipline,academicDiscipline,academicDiscipline,academicDiscipline,no
+519,S,To which country is Svetlana Navasardyan from?,svetlana_navasardyan,svetlana_navasardyan,,,type_true,origin,hometown,,,no
+520,C,What is the faith of the Ajith Perera and religious affiliation of the Neungin High School?,ajith_perera,ajith_perera,neungin_high_school,neungin_high_school,type_true,religion,religion,religiousAffiliation,religion,no
+521,C,What are the awards won by the film director of Saraband ?,saraband,saraband,,,type_true,director,cinematography,awards,award,no
+522,S,What are the notableworks of Russell T Davies?,russell_t_davies,russell_t_davies,,,type_true,notableworks,seeAlso,,,no
+523,C,Horses grandsired by Sundridge  have won which awards?,sundridge_(horse),sundridge_(horse),,,type_true,grandsire,grandsire,honours,honours,yes
+524,C,What is the nickname of the home stadium of Angels Toru?,angels_toru,angels_toru,,,type_true,homeStadium,homeStadium,nickname,homeStadium,no
+525,C,What are the bands associated with the artists of My Favorite Girl  ?,my_favorite_girl_(dave_hollister_song),my_favorite_girl_(dave_hollister_song),,,type_true,artist,musicalArtist,associatedBand,bandMember,no
+526,C,Which religion do the people follow whose constituency is Jadavpur?,jadavpur_(lok_sabha_constituency),jadavpur_(lok_sabha_constituency),,,type_true,constituency,isPartOf,religion,religion,yes
+527,C,Name an American football player whose debuted in Chicago Bears and former team is 1998 Baltimore Ravens season?,chicago_bears,chicago_bears,1998_baltimore_ravens_season,1998_baltimore_ravens_season,type_true,debutteam,debutTeam,formerTeam,formerTeam,yes
+528,C,What other things are provided by the producer of Office 365?,office_365,office_365,,,type_true,service,product,services,manufacturer,no
+529,C,What are the software whose programming language are Multilingual?,multilingualism,multilingualism,,,type_true,language,language,programmingLanguage,programmingLanguage,yes
+530,C,What is the political party of the person succeeded by A.K. Singh?,a._k._singh,a._k._singh,,,type_true,successor,successor,party,party,yes
+531,C,What was the career of some people who have committed suicide?,suicide,,,,type_true,deathCause,deathCause,occupation,influencedBy,no
+532,S,Is Pittsburgh Steelers the former team of Marv McFadden?,marv_mcfadden,marv_mcfadden,pittsburgh_steelers,pittsburgh_steelers,type_true,pastteams,formerTeam,,,no
+533,S,Name the institute of Alton Ochsner ?,alton_ochsner,alton_ochsner,,,type_true,institution,institution,,,no
+534,S,Was James maker in the band Noko?,noko,noko,james_maker,james_maker,type_true,associatedBand,bandMember,,,no
+535,C,Name the constituency of Jonas Gahr where Sverre Krogh was born ?,jonas_gahr_st酶re,,sverre_krogh_sundb?,,type_true,constituency,leader,birthPlace,birthPlace,no
+536,S,Which company owns Sony bank ?,sony_bank,sony_bank,,,type_true,owningCompany,owningCompany,,,no
+537,S,who was the president under whom winston bryant served as a lieutenant?,winston_bryant,winston_bryant,,,type_false,lieutenant,lieutenant,,,no
+538,S,Is Essex the Ceremonial County of West Tilbury?,west_tilbury,west_tilbury,essex,essex,type_true,ceremonialCounty,ceremonialCounty,,,no
+539,C,Which director of On deadly Ground also released Mojo Priest ?,mojo_priest,mojo_priest,on_deadly_ground,on_deadly_ground,type_true,artist,previousWork,director,director,no
+540,C,Name the common nationality of Georgina Theodora Wood and akwasi Oppong Fosu ?,georgina_theodora_wood,georgina_theodora_wood,akwasi_oppong_fosu,,type_true,nationality,nationality,nationality,nationality,no
+541,C,What is the sovereign state of the Dafydd Benfras where Jasmine Lowson is also citizen of ?,dafydd_benfras,,jasmine_lowson,jasmine_lowson,type_true,country,country,citizenship,stateOfOrigin,no
+542,S,What are the nicknames given to the characters of The Wolves of the Mercy Falls?,list_of_the_wolves_of_mercy_falls_characters,mercy_falls,,,type_false,nickname,species,,,no
+543,S,List the territory of Tonkin Campaign ?,tonkin_campaign,tonkin_campaign,,,type_true,territory,territory,,,no
+544,C,What other awards have been given to Golden Globe winners?,golden_globe_award,golden_globe_award,,,type_false,award,award,awards,award,no
+545,C,Name the tenants of MAsterCard center wich is also the draft team of Antoine Bibeau?,mastercard_centre,mastercard_centre,antoine_bibeau,antoine_bibeau,type_true,tenants,tenant,draftTeam,draftTeam,no
+546,C,Which awards have been given to scientists that graduated from NKU athens?,national_and_kapodistrian_university_of_athens,national_and_kapodistrian_university_of_athens,,,type_true,almaMater,almaMater,award,award,yes
+547,S,Name the club of Julie Hastings ?,julie_hastings,julie_hastings,,,type_true,club,club,,,no
+548,C,Whose creators are Jerry Seinfeld and Larry David?,jerry_seinfeld,jerry_seinfeld,larry_david,larry_david,type_true,creator,creator,creator,creator,no
+549,S,Which artist married to Lee Krasner?,lee_krasner,lee_krasner,,,type_true,spouse,spouse,,,no
+550,S,Was Francisco Pizarro of the monarch of Charles 5 of the roman empire?,francisco_pizarro,francisco_pizarro,charles_v_holy_roman_emperor,,type_true,monarch,monarch,,,no
+551,C,Who appointed both John Drayton and William Clark to their respective offices?,john_drayton,john_drayton,william_clark,william_clark,type_true,appointer,appointer,appointer,appointer,no
+552,C,Who debuted their career in a team coached by Chip Kelly?,chip_kelly,chip_kelly,,,type_true,coach,coach,debutTeam,debutTeam,no
+553,C,How many albums did the maker of The Band produce?,the_band,,,,type_true,artist,distributor,subsequentWork,musicalArtist,yes
+554,S,Name few movies directed by Tim Burton ?,tim_burton,tim_burton,,,type_true,director,director,,,yes
+555,C,Who has fought in wars under commander Arthur St Clair?,arthur_st._clair,arthur_st._clair,,,type_true,commander,commander,combatant,commander,no
+556,C,What is telecasted on the network where Deborah Turness holds important position?,deborah_turness,deborah_turness,,,type_true,keyPerson,keyPerson,network,network,no
+557,C,Who is the owner of the bank which owns Bloomberg Radio?,bloomberg_radio,bloomberg_radio,,,type_true,owner,owner,owner,owner,yes
+558,C,What is a common ingredient used in boyt Blodpalt and Kaszanka ?,blodpalt,,kaszanka,kaszanka,type_true,ingredient,ingredient,ingredient,ingredient,no
+559,S,what kind of things play on WBIG FM?,wbig-fm,wbig-fm,,,type_true,programmeFormat,programmeFormat,,,no
+560,S,What is the serving railway line of Warwick railway station Perth ?,warwick_railway_station_perth,,,,type_false,servingRailwayLine,servingRailwayLine,,,no
+561,C,Who was the prime minister under which the predecessor of Derick Heathcoat Amory served?,derick_heathcoat-amory_1st_viscount_amory,derick_heathcoat-amory_1st_viscount_amory,,,type_true,successor,predecessor,primeminister,predecessor,no
+562,C,Who wrote the subsequent work of One Day at a Time (Em's Version) ?,one_day_at_a_time_(em's_version),one_day_at_a_time_(em's_version),,,type_true,subsequentWork,subsequentWork,writer,writer,no
+563,C,List the movies edited by Julian Doyle in which music was composed by Geoffrey Brugon ?,geoffrey_burgon,geoffrey_burgon,julian_doyle_(filmmaker),julian_doyle_(filmmaker),type_true,music,musicComposer,editing,editing,yes
+564,S,Is Anne Hidalgo the mayor of Paris?,paris,joseph_fran?ois_paris,anne_hidalgo,anne_hidalgo,type_true,mayor,mayor,,,no
+565,C,In which city of Pittsburg Steelers was the Congress of Inductrial Organization founded ?,congress_of_industrial_organizations,congress_of_inductrial_organization,pittsburgh_steelers,pittsburgh_steelers,type_true,founded,affiliation,city,knownFor,no
+566,S,What are the settlements whose neighboring municipalities is Lancy?,lancy,lancy,,,type_false,neighboringMunicipalities,neighboringMunicipality,,,no
+567,C,What currencies are used in the country whose capital is Podgorica?,podgorica,podgorica,,,type_true,capital,capital,currency,currency,no
+568,C,Which rivers start from the Provinces of Zambia?,provinces_of_zambia,zambia,,,type_false,settlementType,type,sourceRegion,sourceRegion,yes
+569,S,Georg Meissner was doctoral supervisor of which scientist ?,georg_meissner,georg_meissner,,,type_true,doctoralAdvisor,doctoralAdvisor,,,no
+570,C,How many movies have a screenplay located in the States?,united_states,united_states,,,type_true,birthPlace,mountainRange,screenplay,editing,yes
+571,S,Which companies were behind the renovation of McKechnie Field ?,mckechnie_field,mckechnie_field,,,type_true,architect,operator,,,no
+572,S,What is the location country of Teperberg 1870 ?,teperberg_1870,teperberg_1870,,,type_true,locationCountry,location,,,no
+573,S,what cities are close by LoDaisKa ?,lodaiska_site,lodaiska_site,,,type_true,nearestCity,nearestCity,,,no
+574,C,List the softwares which runs on Microsoft Windows and has license as Software as a service?,microsoft_windows,microsoft_windows,software_as_a_service,software_as_a_service,type_true,operatingSystem,operatingSystem,license,license,yes
+575,C,Where was the engineer born who manufactured EP R.E.P. 1?,esnault-pelterie_r.e.p._1,esnault-pelterie_r.e.p._1,,,type_true,manufacturer,manufacturer,birthPlace,birthPlace,no
+576,C,Which sport at Polytechnic University of the Philippines Taguig is the field of Jon speelman ?,jon_speelman,jon_speelman,polytechnic_university_of_the_philippines_taguig,polytechnic_university_of_the_philippines_taguig,type_true,field,field,sport,sport,no
+577,C,Which senator served in military units VMF-155 and VMF-218?,vmf-155,vmf-155,vmf-218,vmf-218,type_true,militaryUnit,militaryBranch,militaryUnit,militaryBranch,yes
+578,S,Does the Ontario International Airport serve the Inland Empire?,ontario_international_airport,ontario_international_airport,inland_empire,inland_empire,type_true,cityServed,hubAirport,,,no
+579,C,Give me list of people who were the first to climb a peak in the Yosemite park?,yosemite_national_park,yosemite_national_park,,,type_true,locatedInArea,locatedInArea,firstAscentPerson,firstAscentPerson,no
+580,C,Which garrison of East Indies Station is also the route end of Mumbai Vadodara Express ?,mumbai_vadodara_expressway,mumbai_vadodara_expressway,east_indies_station,east_indies_station,type_true,routeEnd,routeEnd,garrison,garrison,no
+581,S,Does Mauritius follow a parliamentary republic?,mauritius,mauritius,parliamentary_republic,parliamentary_republic,type_true,governmentType,governmentType,,,no
+582,C,Count the number of important works done by the writers of The Second Coming?,the_second_coming_(tv_serial),the_second_coming_(tv_serial),,,type_true,author,notableWork,notableWork,notableWork,no
+583,S,who owns the ship Victoria?,victoria_(ship),victoria_(ship),,,type_true,owner,owner,,,no
+584,C,What is the base currency of the Benelux and is also used as money in Kerguelen Islands?,benelux,benelux,kerguelen_islands,kerguelen_islands,type_true,currency,currency,currency,currency,no
+585,C,List the places where the relatives of Mark Donaldson died ?,mark_donaldson_(rugby_player),mark_donaldson_(rugby_player),,,type_true,relatives,relative,deathPlace,deathPlace,no
+586,C,Give me everything owned by networks which is lead by Steve Burke?,steve_burke_(businessman),steve_burke_(businessman),,,type_true,keyPerson,keyPerson,network,network,no
+587,S,For which teams did Ryan Powell play for?,ryan_powell_(lacrosse),ryan_powell_(lacrosse),,,type_true,team,team,,,no
+588,C,Who is the founder of the trade union which affiliates Amalgamated Association of Iron and Steel Workers?,amalgamated_association_of_iron_and_steel_workers,amalgamated_association_of_iron_and_steel_workers,,,type_true,affiliation,affiliation,founded,foundationPlace,yes
+589,S,What royalties's sepulchre is Mausoleum of Augustus?,mausoleum_of_augustus,augustus,,,type_true,placeOfBurial,restingPlace,,,no
+590,C,How many cars are similar to the ones assembled in the Jefferson North Assembly?,jefferson_north_assembly,jefferson_north_assembly,,,type_true,assembly,assembly,related,relatedMeanOfTransportation,no
+591,S,Which state does Jerome B. Chaffee belong ?,jerome_b._chaffee,jerome_b._chaffee,,,type_true,state,region,,,no
+592,C,How many TV shows' networks are headquarterd in NY?,new_york,new_york,,,type_true,headquarters,network,network,network,yes
+593,C,Where do the politicians Blanche Bruce and John Franklin Miller work?,blanche_bruce,blanche_bruce,john_franklin_miller_(senator),john_franklin_miller_(senator),type_true,office,party,office,party,no
+594,C,What region was Gloria Schaffer born in which also contains Newington?,gloria_schaffer,gloria_schaffer,newington_connecticut,newington_college,type_true,birthPlace,birthPlace,isPartOf,region,no
+595,C,How many ideologies do the political party of Boonchu Rojanastien hold?,boonchu_rojanastien,boonchu_rojanastien,,,type_true,party,party,ideology,ideology,yes
+596,S,Who is married to Gerard Piqu?,gerard_piqu,gerard_piqu,,,type_true,partner,partner,,,no
+597,C,Name the TV shows with network as NBC and company as Paramount Television ?,nbc,nbc,paramount_television,paramount_pictures,type_true,network,network,company,company,yes
+598,C,Who has composed songs produced by Terry Melcher?,terry_melcher,terry_melcher,,,type_true,producer,producer,composer,lyrics,yes
+599,C,Where was the deadbody discovered of one of the alumni of General Educational Development?,general_educational_development,general_educational_development,,,type_true,education,type,bodyDiscovered,residence,no
+600,C,Which past members of the The Conglomerate (American group) also sang Take Me There (Blackstreet & Ma song)?,the_conglomerate_(american_group),the_conglomerate_(american_group),take_me_there_(blackstreet_&_m?a_song),take_me_there_(blackstreet_&_m?a_song),type_true,pastMembers,hometown,musicalBand,subsequentWork,no
+601,S,Who is the producer of  Frampton's Camel ?,frampton's_camel,frampton's_camel,,,type_true,producer,producer,,,no
+602,C,How many developers were involved in creating games whose score is composed by Gerard Marino?,gerard_marino,gerard_marino,,,type_true,composer,musicComposer,developer,developer,no
+603,C,Where did these popular aeroplanes - Focke Wulf 260 and Start+Flug H 101 originate?,focke-wulf_fw_260,focke-wulf_fw_260,start_+_flug_h-101,,type_true,nationalOrigin,origin,nationalOrigin,origin,no
+604,S,Count the key people of the Clinton Foundation?,clinton_foundation,clinton_foundation,,,type_true,keyPeople,keyPerson,,,no
+605,S,Give me someone on the board of trinity house?,trinity_house,newcastle-upon-tyne_trinity_house,,,type_true,board,board,,,no
+606,S,Does Timothy Morton study Buddhism?,timothy_morton,timothy_morton,buddhism,,type_true,mainInterests,mainInterest,,,no
+607,C,Name a queen whose parent is Ptolemy XII Auletes and consort is Ptolemy XIII Theos Philopator?,ptolemy_xii_auletes,ptolemy_xii_auletes,ptolemy_xiii_theos_philopator,ptolemy_xiii_theos_philopator,type_true,parent,parent,spouse,spouse,yes
+608,C,Which universit's affiliation is with Kalpan Inc. and has campus at Iowa ?,kaplan_inc.,kaplan_inc.,iowa,iowa,type_true,affiliations,affiliation,campus,campus,yes
+609,C,Which area operataed by the South Side Elevated Railroad is also the place of death of the Sakari Suzuki ?,south_side_elevated_railroad,south_side_elevated_railroad,sakari_suzuki,sakari_suzuki,type_true,operatedBy,operatedBy,deathPlace,deathPlace,no
+610,C,Which venues are located at places governed by John Roberts?,john_roberts,john_roberts,,,type_true,leader,designer,address,location,yes
+611,C,What is the mascot of the rival school of Sullivan Central High?,sullivan_central_high_school,sullivan_central_high_school,,,type_true,rival,rival,mascot,locationCity,no
+612,C,Which Paramount TV show was produced by Glen and Les Charles ?,glen_and_les_charles,glen_and_les_charles,paramount_television,,type_true,executiveProducer,executiveProducer,company,product,yes
+613,C,Whose network's parent organisation is Comcast?,comcast,comcast,,,type_false,parentOrganisation,parentOrganisation,network,network,no
+614,C,Name the common editor of Easy Street (film) and Work (film)?,easy_street_(film),easy_street_(film),work_(film),work_(film),type_true,editing,editing,editing,editing,no
+615,C,Which team did Wilfred McDonalds and Cam Plante play for?,wilfred_mcdonald,wilfred_mcdonald,cam_plante,cam_plante,type_true,playedFor,formerTeam,playedFor,formerTeam,no
+616,S,Is Albert P Clark buried in Colorado?,albert_p._clark,albert_p._clark,colorado,colorado,type_true,placeofburial,restingPlace,,,no
+617,S,Where was Al Muzaffar Umar buried ?,al-muzaffar_umar,al-muzaffar_umar,,,type_true,placeOfBurial,placeOfBurial,,,no
+618,S,Is the Hyundai Lavita assembled in Ulsan?,hyundai_lavita,hyundai_lavita,ulsan,ulsan_hyundai_fc,type_true,assembly,designCompany,,,no
+619,C,Who is the producer of album which has the song Money?,money_(pink_floyd_song),,,,type_true,album,producer,producer,producer,no
+620,C,Which tv show was preceded by The spirit of Christmas and voice to the character was given by Mona Marshall ?,the_spirit_of_christmas_(short_film),christmas_music,mona_marshall,mona_marshall,type_true,previousWork,previousWork,voices,voice,yes
+621,S,Did Alexandre Tichonov study at the Moscow university?,alexandre_tichonov,alexandre_tichonov,moscow,moscow_state_university,type_true,university,university,,,no
+622,S,How many members are there in the European Go Federation?,european_go_federation,european_go_federation,,,type_true,membership,leaderFunction,,,no
+623,S,List all the notable works of  Russell T Davies?,russell_t_davies,russell_t_davies,,,type_true,notableWork,notableWork,,,no
+624,S,To which country does Peter Blay owe his allegiance?,peter_blay,peter_blay,,,type_false,allegiance,country,,,no
+625,C,Who has allegiance is Colony of Virginia and buried in Montpelier?,colony_of_virginia,virginia,montpelier_(orange_virginia),montpellier_hsc,type_true,allegiance,restingPlace,restingplace,restingPlace,no
+626,C,Give me the list of cars which are the predecessor of Full Sized Cars?,full-size_car,full-size_car,,,type_true,class,predecessor,predecessor,predecessor,yes
+627,S,Was Morrissey a member of the Smiths?,the_smiths,the_smiths,morrissey,morrissey,type_true,formerBandMember,formerBandMember,,,no
+628,S,Who are the producers of Marie Sisters?,marie_sisters,marie_sisters,,,type_true,producer,producer,,,no
+629,S,List the comic characters created by Joe Shuster ?,joe_shuster,joe_shuster,,,type_true,creators,creator,,,no
+630,C,Who was on the first team in the GPs that were held at Watkins Glen NY?,watkins_glen_new_york,,,,type_true,location,countySeat,firstTeam,hubAirport,yes
+631,S,Who is the military general buried in St Marys Church Battersea?,st_mary's_church_battersea,st_mary's_church_battersea,,,type_true,placeofburial,restingPlace,,,no
+632,C,Which wars were fought when the commanders involved served under PM Choi Tu Son?,choi_tu-son,choi_tu_son,,,type_true,primeminister,primeMinister,commander,commander,yes
+633,S,Did Jerry Rice study in Oktoc Mississippi?,jerry_rice,jerry_rice,oktoc_mississippi,oktoc,type_true,highSchool,highschool,,,no
+634,C,Food in which countries has shallot in it?,shallot,shallot,,,type_false,ingredient,ingredient,country,country,yes
+635,S,What are the musical performances whose label is Celluloid Records?,celluloid_records,celluloid_records,,,type_true,label,recordLabel,,,no
+636,S,Was andy warhol a part of Pop Art movement?,andy_warhol,andy_warhol,pop_art,pop_art,type_true,movement,movement,,,no
+637,C,Which TV show whose theme is composed by someone signed up with ATO records?,ato_records,ato_records,,,type_true,recordLabel,distributingLabel,themeMusicComposer,openingTheme,yes
+638,C,What religions do diplomats typically follow?,diplomacy,diplomat,,,type_false,profession,starring,religion,religion,no
+639,S,Was Don't Bring Me Down recorded in West Germany?,don't_bring_me_down,don't_bring_me_down,west_germany,west_germany,type_true,recorded,recordedIn,,,no
+640,C,Give the name of the  managers of England national under-20 football team and England national under-21 football team?,england_national_under-20_football_team,england_national_under-20_football_team,england_national_under-21_football_team,england_national_under-21_football_team,type_true,managerclubs,managerClub,managerclubs,managerClub,no
+641,C,Which sport of Vishwajyot High School is also the genere of Battle chess ,battle_chess,battle_chess,vishwajyot_high_school,vishwajyot_high_school,type_true,genre,computingPlatform,sport,sport,no
+642,C,Which ceremonial County of the East Tilbury is also the local authority of the Trinity School Brentwood?,east_tilbury,east_tilbury,trinity_school_brentwood,,type_true,ceremonialCounty,ceremonialCounty,localAuthority,localAuthority,no
+643,C,Name the television show where Mona Marshall has given voice and is distributed by Comedy Central?,mona_marshall,mona_marshall,comedy_central,comedy_central,type_true,voices,voice,distributor,broadcastArea,yes
+644,C,What city has the football team in which Lee Robinson debuted?,lee_robinson_(american_football),lee_robinson_(american_football),,,type_true,debutTeam,debutTeam,locationCity,locationCity,no
+645,S,Who is the chancellor of Falmouth University ?,falmouth_university,falmouth_university,,,type_true,chancellor,chancellor,,,no
+646,S,What are the binomial authority of Menetries's warbler?,menetries's_warbler,new_world_warbler,,,type_true,binomialAuthority,order,,,no
+647,S,Is greasy pop recording the distributor of festival records?,greasy_pop_records,greasy_neale,festival_records,festival_records,type_true,distributingLabel,distributingLabel,,,no
+648,C,Which television show 's producer is Stephen E. Ambrose and written by Erik Jendresen?,stephen_e._ambrose,stephen_e._ambrose,erik_jendresen,erik_jendresen,type_true,producer,producer,writer,producer,yes
+649,C,What is the alma mater of the scientists  known for  String theory?,string_theory,string_theory,,,type_true,knownFor,knownFor,almaMater,almaMater,yes
+650,C,Who is the developer of the software which is produced by Claris ?,claris,claris,,,type_true,products,developer,developer,developer,yes
+651,S,Who is the music composer of Kenny Dies ?,kenny_dies,kenny_mccormick,,,type_true,musicComposer,musicComposer,,,no
+652,C,Name the scientist whose supervisor also supervised Mary Ainsworth?,mary_ainsworth,mary_ainsworth,,,type_true,doctoralStudents,doctoralStudent,doctoralAdvisor,knownFor,yes
+653,S,By what style was Providence Chapel Charlwood made?,providence_chapel_charlwood,providence_chapel_charlwood,,,type_true,style,architecturalStyle,,,no
+654,S,Did Raymond Picard take birth in Paris?,raymond_picard,raymond_picard,paris,joseph_fran?ois_paris,type_true,birthplace,birthPlace,,,no
+655,C,Whihc birthplace of Svetlana Gounkina is also the largest city of Union State ?,union_state,union_state,svetlana_gounkina,svetlana_gounkina,type_true,largestCity,ideology,birthPlace,birthPlace,no
+656,C,To which series does the book belong which came after the Blade Runner 2?,blade_runner_2:_the_edge_of_human,untitled_blade_runner_sequel,,,type_true,previousWork,subsequentWork,series,series,no
+657,C,Which company's cars are assembled in Colombia?,colombia,columbia_records,,,type_false,assembly,related,parentCompany,parentCompany,yes
+658,C,In which places do companies founded in Newcastle operate?,city_of_newcastle,city_of_newcastle,,,type_true,foundationPlace,foundationPlace,regionServed,foundationPlace,yes
+659,C,Musical artists who are associated with Ren & Angela were born where ?,ren_&_angela,ren_&_angela,,,type_true,associatedActs,associatedBand,birthPlace,associatedMusicalArtist,yes
+660,C,Which sects people are part of local political parties which fall under the International Muslim Brotherhood?,muslim_brotherhood,,,,type_true,international,otherParty,religion,veneratedIn,yes
+661,C,Whose predecessor had Jenny Macklin as a deputy ?,jenny_macklin,jenny_macklin,,,type_false,deputy,predecessor,predecessor,predecessor,no
+662,S,Name  the Pole driver of 1994 Spanish Grand Prix ?,1994_spanish_grand_prix,1994_spanish_grand_prix,,,type_true,poleDriver,poleDriver,,,no
+663,S,Who was the First Driver of 1999 San Marino Grand Prix ?,1999_san_marino_grand_prix,1999_san_marino_grand_prix,,,type_true,firstDriver,firstDriver,,,no
+664,C,List the universities from a country where Norwegian language is officially accepted.,norwegian_language,norwegian_language,,,type_true,officialLanguage,officialLanguage,country,country,yes
+665,C,Name the movie whose screenplay is by Akiva Goldsman and directed by Joel Schumacher ?,akiva_goldsman,akiva_goldsman,joel_schumacher,joel_schumacher,type_true,screenplay,director,director,director,yes
+666,C,Where did Georges Wolinski and Judson Huss die,georges_wolinski,georges_wolinski,judson_huss,judson_huss,type_true,placeOfDeath,award,deathPlace,country,no
+667,C,Which city is known for the people working in the western penn hospital?,western_pennsylvania_hospital,western_pennsylvania_hospital,,,type_false,workInstitutions,owner,knownFor,owner,yes
+668,S,Which team won the American Football League?,american_football_league,american_football_league,,,type_true,champion,team,,,no
+669,S,what is the headquarters of Juan Dalmau Ramerez?,juan_dalmau_ram铆rez,,,,type_true,headquarters,stateOfOrigin,,,no
+670,S,Who is the leader of Allgemeine SS ?,allgemeine_ss,allgemeine_ss,,,type_true,leader,leader,,,no
+671,S,How many important works have been done by Russel Davies?,russell_t_davies,russell_t_davies,,,type_true,notableWork,notableWork,,,no
+672,S,What is the birth name  of Putri Raemawasti ?,putri_raemawasti,putri_raemawasti,,,type_true,birthName,birthPlace,,,no
+673,S,From where does the river Upper Neretva start flowing?,upper_neretva,upper_neretva,,,type_false,riverMouth,riverMouth,,,no
+674,C,What did Steven T Mason's father die from?,stevens_t._mason,stevens_t._mason,,,type_false,child,predecessor,deathCause,deathCause,no
+675,C,What made jo garcia and merritt cabal both famous?,jo_garcia,jo_garcia,merritt_cabal,merritt_cabal,type_true,knownFor,knownFor,knownFor,knownFor,no
+676,C,Which architect of the Marine Corps Air Station Kaneohe Bay is the branch of the Burnet R. Maybank?,marine_corps_air_station_kaneohe_bay,marine_corps_air_station_kaneohe_bay,burnet_r._maybank,burnet_r._maybank,type_true,architect,architect,branch,predecessor,no
+677,S,To which american football teams does the Heinz Field as home stadium?,heinz_field,marek_heinz,,,type_false,tenants,stadium,,,no
+678,S,What is the official name of Colorado wine ?,colorado_wine,colorado_wine,,,type_true,officialName,isPartOfWineRegion,,,no
+679,C,Count the total number of cast member of the television shows whose actress is Joey McIntyre?,joey_mcintyre,joey_mcintyre,,,type_true,starring,starring,starring,starring,no
+680,C,Name the TV show with artist Christopher Franke and cast member Jason Carter ?,christopher_franke,christopher_franke,jason_carter_(actor),jason_carter_(politician),type_true,artist,artist,starring,starring,yes
+681,C,Name the office holder with successor as Adrian A Basora and child as Lori Black ?,lori_black,lori_black,adrian_a._basora,adrian_a._basora,type_true,child,child,successor,successor,yes
+682,S,does the US navy have the structure of command of us department of defence?,united_states_navy,,united_states_department_of_defense,,type_true,commandStructure,maintainedBy,,,no
+683,S,What is the route end of Birmingham and Oxford Junction Railway ?,birmingham_and_oxford_junction_railway,birmingham_and_oxford_junction_railway,,,type_true,routeEnd,routeEnd,,,no
+684,S,What is the municipality of Homestead Grays Bridge ?,homestead_grays_bridge,homestead_grays_bridge,,,type_true,municipality,municipality,,,no
+685,C,Which fictional character sculpted by Josh Friedmann was portrayed in Terminator 3 ?,josh_friedman,josh_friedman,terminator_3:_rise_of_the_machines,terminator_3:_rise_of_the_machines,type_true,creator,creator,portrayer,portrayer,yes
+686,C,Which region of Bannock is the origin od Spaghetti squash ?,spaghetti_squash,spaghetti_squash,bannock_(food),bannock_(food),type_true,origin,species,region,region,no
+687,S,Who are the architect of the stadium whose one of the architect is louis D. Astorino ?,louis_d._astorino,louis_d._astorino,,,type_false,architect,architect,,,no
+688,C,Give me the sitcoms where Eliza Schneider and Isaac Hayes gave voice?,eliza_schneider,eliza_schneider,isaac_hayes,isaac_hayes,type_true,voices,starring,voices,voice,yes
+689,S,Who is the fictional character whose family member is Padme Amidala?,padm_amidala,padm_amidala,,,type_false,family,voice,,,no
+690,C,Which notable series of Russell T Davies is also the series of Short Trips: A day in the life ?,short_trips:_a_day_in_the_life,short_trips:_a_day_in_the_life,russell_t_davies,russell_t_davies,type_true,series,series,notableWork,notableWork,no
+691,C,What is the birth place of the astronaut whose mission was the Vostok programmer?,vostok_programme,vostok_programme,,,type_true,mission,seeAlso,birthPlace,significantProject,yes
+692,C,Name the company which produces both  Boeing F/A-18 E/F Hornet and CH-46 Chinook ?,boeing_ch-47_chinook,,,,type_true,product,product,products,parentCompany,no
+693,C,What are the other notable work of the executive producer of The Runaway Bride episode of Doctor Who?,the_runaway_bride_(doctor_who),runaway_bride_(film),,,type_true,executiveProducer,executiveProducer,notableworks,notableWork,no
+694,S,Who is the meaning of Isa  ?,isa_(name),isa_(name),,,type_true,meaning,seeAlso,,,no
+695,C,Which company founded by Fusajiro Yamauchi also provides services of Nintendo eShop ?,fusajiro_yamauchi,fusajiro_yamauchi,nintendo_eshop,nintendo_eshop,type_true,foundedBy,foundedBy,services,distributor,yes
+696,C,What is the official language of Ladonia which is the target area of Probus Journal?,ladonia_(micronation),ladonia_(micronation),probus_(journal),probus_(journal),type_true,officialLanguage,governmentType,academicDiscipline,publisher,no
+697,C,Name the movie who has screenplay by Akiva Goldsman and is edited by Mark Stevens ?,akiva_goldsman,akiva_goldsman,mark_stevens_(film_editor),mark_stevens_(actor),type_true,screenplay,director,editing,editing,yes
+698,C,How many TV shows are similar to the ones belonging to fantasy genre?,fantasy_television,fantasy,,,type_true,genre,genre,related,related,yes
+699,C,How many teams have rented stadiums in Canada?,canada,canada,,,type_true,location,mountainRange,tenants,tenant,no
+700,C,What is the sea whose cities are Gdask and Oulu?,gdask,gdask,oulu,oulu,type_true,cities,capital,cities,city,yes
+701,C,Total number of places where people drafted in the detroit pistons have died?,detroit_pistons,detroit_pistons,,,type_true,draftTeam,draftTeam,placeOfDeath,deathPlace,yes
+702,C,List few musical artist whose notable instruments are Ludwig Drums and  Remo?,ludwig_drums,ludwig_drums,remo,remo,type_true,notableInstruments,instrument,instrument,musicalBand,yes
+703,C,Who commanded the invasion of Buwat and made Fatima bint Sa'd famous?,invasion_of_buwat,patrol_of_buwat,fatimah_bint_sa'd,,type_true,commander,commander,knownFor,knownFor,no
+704,S,Who are the astronauts associated with NASA?,nasa,nasa,,,type_true,type,associatedMusicalArtist,,,no
+705,C,Who all have been presenters on shows by the NBC?,nbc,nbc,,,type_false,channel,presenter,presenter,presenter,yes
+706,S,What are the central characters in spy kids series?,spy_kids_(franchise),spy_kids_(franchise),,,type_true,series,series,,,no
+707,S,Is William H Blanchard buried in Colorado?,william_h._blanchard,william_h._blanchard,colorado,colorado,type_true,placeofburial,restingPlace,,,no
+708,C,What award was won by the father of Angelina Jolie?,angelina_jolie,angelina_jolie,,,type_true,children,child,award,award,no
+709,S,What are the hubs of PLUS Helicopter Services a highway helicopter unit of PLUS Expressways?,plus_expressways,plus_helicopter_of_plus_expressways,,,type_false,hubs,hubAirport,,,no
+710,C,In how many places are the tombs of people who died in Connecticut Colony?,connecticut_colony,connecticut_colony,,,type_true,placeOfDeath,deathPlace,restingPlace,restingPlace,yes
+711,C,Who are the shareholder of the soccer club for whom Steve Holland plays?,steve_holland_(footballer),steve_holland_(footballer),,,type_true,currentclub,managerClub,owner,owner,no
+712,C,Where does the river flow into which begins in Lebrsnik?,lebr?nik,lebr?nik,,,type_false,sourcePlace,sourcePlace,riverMouth,riverMouth,no
+713,S,What is the colour of Xocolatlite ?,xocolatlite,xocolatlite,,,type_true,colour,colour,,,no
+714,C,Name the location of Lekh Castle which is also the location of SamurAbsheron channel ?,lekh_castle,lekh_castle,samurCabsheron_channel,samurCabsheron_channel,type_true,location,location,sourceCountry,sourceCountry,no
+715,S,Was True Grit a novel of the western genre?,true_grit_(novel),,western_(genre),,type_true,literaryGenre,literaryGenre,,,no
+716,S,Name the president of Wyche Fowler ?,wyche_fowler,wyche_fowler,,,type_true,president,president,,,no
+717,C,Which interest of Philip Novak is the relegion of Vesak ?,philip_novak,philip_novak,vesak,vesak,type_true,mainInterests,influencedBy,type,similar,no
+718,S,Is semnani one of the languages spoken in Iran?,iran,iran,semnani_languages,semnani_languages,type_true,languages,spokenIn,,,no
+719,S,Which movies's screenplay is written by Akiva Goldsman,akiva_goldsman,akiva_goldsman,,,type_false,screenplay,writer,,,no
+720,S,What are the movies written by Nick Castle?,nick_castle,nick_castle,,,type_true,writer,writer,,,no
+721,C,What city gave birth to Mishal Raheja and also houses New India Assurance?,mishal_raheja,mishal_raheja,new_india_assurance,new_india_assurance,type_true,birthPlace,hometown,location,foundationPlace,no
+722,C,Name the Fox TV show judged by Rand Jackson ?,randy_jackson,randy_jackson,fox_broadcasting_company,,type_true,judges,showJudge,channel,channel,yes
+723,S,Whihc uni did Joshua A. Siegel attend ?,joshua_a._siegel,joshua_a._siegel,,,type_true,education,knownFor,,,no
+724,S,What is the successor of PlayStation 4,playstation_4,playstation_4,,,type_true,successor,successor,,,no
+725,S,To which series does Lost special belong to ?,the_lost_special,,,,type_true,series,series,,,no
+726,C,List the awards won by the film director of Chicken Run?,chicken_run,chicken_run,,,type_true,director,cinematography,award,award,no
+727,S,Was Elton John a chairman of a Watford FC Season?,1999C2000_watford_f.c._season,1999C2000_watford_f.c._season,elton_john,elton_john,type_true,chairman,chairman,,,no
+728,S,What is the religious affiliation of Neungin High School?,neungin_high_school,neungin_high_school,,,type_true,religiousAffiliation,religion,,,no
+729,S,Who directed The Haunted House ?,the_haunted_house_(1929_film),the_haunted_house_(1929_film),,,type_true,director,director,,,no
+730,C,For how many movies are there whose musicians home town is in Volos ?,volos,volos,,,type_true,hometown,hometown,music,musicComposer,yes
+731,S,what awards have been given to A. Peter Dewey?,a._peter_dewey,a._peter_dewey,,,type_true,award,award,,,no
+732,C,Which Texas based company  was founded by Jim Harris ?,texas,,jim_harris_(entrepreneur),jim_harris_(entrepreneur),type_true,locationCity,company,founder,foundedBy,yes
+733,C,Name the officeholder who hasa child named Augustus and has an associate named Marcus Bibulus ?,marcus_calpurnius_bibulus,marcus_calpurnius_bibulus,augustus,augustus,type_true,associate,associate,children,associate,yes
+734,C,What are Jerry Bock's musicals based upon?,jerry_bock,jerry_bock,,,type_false,music,musicBy,basedOn,basedOn,yes
+735,C,The president who was in office when Lee Hyun Jae was the PM followed which religion?,lee_hyun-jae,lee_hyun-jae,,,type_true,primeminister,primeMinister,religion,president,yes
+736,C,What is the religion of the ones in the Kampuchean Union of Salvation?,kampuchean_united_front_for_national_salvation,,,,type_false,militaryBranch,militaryBranch,religion,religion,no
+737,C,List the employments of people who died in Tampa Florida.,tampa_florida,tampa_florida,,,type_true,deathPlace,deathPlace,occupation,relation,no
+738,C,Which parent organization of GetTV is also the label of next thing ?,next_thing,,gettv,gettv,type_true,recordLabel,recordLabel,parentOrganisation,parentOrganisation,no
+739,S,Is Andrew Lincoln the narrator of Million Dollar Traders?,million_dollar_traders,million_dollar_traders,andrew_lincoln,andrew_lincoln,type_true,narrator,narrator,,,no
+740,C,List the names of the soccer club seasons whose division is 2012 Campeonato Brasileiro Srie A.,2012_campeonato_brasileiro_srie_a,2012_campeonato_brasileiro_srie_a,,,type_true,league,league,name,homeStadium,yes
+741,S,What is the content licence of MSX BASIC ?,msx_basic,msx_basic,,,type_true,license,programmingLanguage,,,no
+742,S,What are the notable commanders of the army  whose one of the notable commanders is Paul Hausser?,paul_hausser,paul_hausser,,,type_false,notableCommanders,notableCommander,,,no
+743,S,Does StandBy records distribute via Sony?,standby_records,standby_records,sony,sony,type_true,distributingLabel,distributingLabel,,,no
+744,S,Is Seattle the Ship builder of USS Marmora (IX-189)?,uss_marmora_(ix-189),uss_marmora_(ix-189),seattle,,type_true,shipBuilder,builder,,,no
+745,S,Is Charles Drummond Ellis a doctoral student of James Chadwick?,james_chadwick,james_chadwick,charles_drummond_ellis,charles_drummond_ellis,type_true,doctoralStudent,doctoralStudent,,,no
+746,S,What is the purpose of New Zealand Chess Federation ?,new_zealand_chess_federation,new_zealand_chess_federation,,,type_true,purpose,type,,,no
+747,C,Under which presidents have politicians from the Continental army served?,continental_army,united_states_army,,,type_true,branch,militaryBranch,president,president,no
+748,C,How many universities are there whose country's capital is Oslo?,oslo,oslo,,,type_true,capital,capital,country,academicAdvisor,yes
+749,C,Horses sired by Karinga Bay have participated in which races?,karinga_bay,karinga_bay,,,type_true,sire,sire,race,race,yes
+750,C,What is the radio show created by Timoteo Jeffries about?,timoteo_jeffries,timoteo_jeffries,,,type_true,creator,presenter,format,format,yes
+751,C,Who is associated  with the musical artists from Africa '70 (band) and Tony Allen ?,africa_'70_(band),africa_'70_(band),tony_allen_(musician),tony_allen_(footballer),type_true,associatedMusicalArtist,associatedBand,associatedMusicalArtist,associatedMusicalArtist,yes
+752,C,How many religions are followed by the group whose architectural style can be seen on Sanggar Agung?,sanggar_agung,sanggar_agung,,,type_true,architecturalStyle,architecturalStyle,religion,religion,yes
+753,C,Which companies makes cars assembled in Karachi Pakistan?,karachi,,,,type_true,assembly,assembly,parentCompany,parentCompany,yes
+754,C,Who is the president of Carl Stokes nad Wyche Fowler ?,carl_stokes,,wyche_fowler,,type_true,president,president,president,president,no
+755,S,Josef Bhler belongs to which political party?,josef_bhler,josef_bhler,,,type_true,occupation,termPeriod,,,no
+756,S,Where is the headquarters of Sigma TV,sigma_tv,sigma_tv,,,type_true,headquarters,locationCountry,,,no
+757,C,How many subjects are covered in the publications of Doubleday?,doubleday_(publisher),doubleday_(publisher),,,type_true,publisher,parentCompany,nonFictionSubject,nonFictionSubject,no
+758,S,In how many places has Don R. Berlin worked?,don_r._berlin,don_r._berlin,,,type_true,employer,significantProject,,,no
+759,S,Was Heinrich Himmler ever a commanders of Army Group Oberrhein?,army_group_oberrhein_(germany),army_group_oberrhein_(germany),heinrich_himmler,heinrich_himmler,type_true,notableCommanders,notableCommander,,,no
+760,C,What is the stylistic origin of the music genres where the Bass guitar is important?,bass_guitar,bass_guitar,,,type_true,instruments,genre,stylisticOrigin,stylisticOrigin,yes
+761,C,Where did the office holder  who is predecessor to Marco Aurelio Robles died ?,marco_aurelio_robles,marco_aurelio_robles,,,type_true,predecessor,predecessor,placeOfDeath,deathPlace,yes
+762,S,List all the schools of the rugby player whose went to school named Pietermaritzburg ?,pietermaritzburg,pietermaritzburg,,,type_false,school,grades,,,no
+763,C,What are the things whose mascots are from the class Eutheria?,eutheria,eutheria,,,type_true,class,family,mascot,ingredient,no
+764,C,Name the are where South side Elevated Railroad operate and has place of birth as Arthur A. Ross ?,south_side_elevated_railroad,south_side_elevated_railroad,arthur_a._ross,arthur_a._ross,type_true,operatedBy,operatedBy,placeOfBirth,birthPlace,no
+765,C,Quebec born ice hockey players have stopped playing for which teams?,quebec,quebec,,,type_true,birthPlace,athletics,formerTeam,team,yes
+766,C,How many politicians are there from the city of Ganges?,ganges,ganges,,,type_true,city,city,leaderName,firstAscentPerson,no
+767,C,What genre's softwares are released with a GNU GPL license?,gnu_general_public_license,gnu_general_public_license,,,type_true,license,seeAlso,genre,gameEngine,no
+768,S,Count the movies in Swedish language?,swedish_language,sweden,,,type_true,language,officialLanguage,,,no
+769,S,How many politicians live in India?,india,india,,,type_true,residence,residence,,,no
+770,C,Who is the producer of the device which is the operating system of Now TV  ?,now_tv_(uk),now_tv_(uk),,,type_true,operatingSystem,operatingSystem,manufacturer,manufacturer,no
+771,C,What faiths are followed by the relatives of Meadow Soprano?,meadow_soprano,meadow_soprano,,,type_false,relative,relative,religion,religion,no
+772,C,Where did the scientist study whose doctoral thesis was supervised by Leonard Lerman?,leonard_lerman,leonard_lerman,,,type_true,doctoralAdvisor,doctoralAdvisor,almaMater,doctoralAdvisor,yes
+773,C,Which river flows through Hudson Highlands State park and also through Troy New york ?,hudson_highlands_state_park,hudson_highlands_state_park,troy_new_york,,type_true,river,river,river,river,no
+774,S,What river is it whose source is Dowra?,dowra,dowra,,,type_true,sourceLocation,sourceMountain,,,no
+775,C,Who was the voice actor of allen walker also gave voice to kimihiro watanuki?,allen_walker,allen_walker,kimihiro_watanuki,kimihiro_watanuki,type_true,voice,creator,voice,voice,no
+776,S,What is the launch site of Aquarius (rocket) ?,aquarius_(rocket),aquarius_(rocket),,,type_true,launchSite,launchSite,,,no
+777,C,What are some dishes from the family of dishes which primarily use flour?,flour,flour,,,type_true,mainIngredient,order,type,ingredient,yes
+778,C, Giuseppe Bertello and Pietro Parolin are leaders of which place ?,giuseppe_bertello,giuseppe_bertello,pietro_parolin,pietro_parolin,type_true,leader,leader,leader,leader,yes
+779,C,How did the child of Stevens T. Mason die?,stevens_thomson_mason_(virginia),stevens_thomson_mason_(virginia),,,type_false,child,child,deathCause,deathCause,no
+780,S,What is the faith of Kwai Chang Caine ?,kwai_chang_caine,kwai_chang_caine,,,type_true,religion,religion,,,no
+781,S,List the settlements area whose province is Metropolitan City of Venice ?,metropolitan_city_of_venice,metropolitan_city_of_venice,,,type_false,province,province,,,no
+782,S,Is the Vadodara railway junction onwed by Indian Railway Ministry?,vadodara_junction_railway_station,vadodara_junction_railway_station,ministry_of_railways_(india),minister_of_railways_(india),type_true,owningOrganisation,servingRailwayLine,,,no
+783,S,Who is the writer of mark twain Tonight ?,mark_twain_tonight,mark_twain_tonight,,,type_true,writer,author,,,no
+784,S,Which nationalist group was responsible for foundation of Young Lords?,young_lords,,,,type_true,international,internationalAffiliation,,,no
+785,C,How many people have fought wars where Arthur St. Clair was a commander?,arthur_st._clair,arthur_st._clair,,,type_true,commander,commander,combatant,commander,no
+786,C,What are some parties which have people from Mangalore as a member?,mangalore,mangalore,,,type_false,placeOfBirth,restingPlace,party,party,no
+787,S,What is the venue of San Diego Comic-Con International ?,san_diego_comic-con_international,san_diego_comic-con_international,,,type_true,venue,location,,,no
+788,C,Who composed the episode after which came Butter's Very own Episode?,butters'_very_own_episode,,,,type_true,subsequentWork,subsequentWork,musicComposer,composer,yes
+789,C,What are some wars fought when Chung Il Kwon as the country's prime minister?,chung_il-kwon,chung_il-kwon,,,type_true,primeminister,battle,commander,nonFictionSubject,yes
+790,C,How many people have worked for teams chaired by Patricia Amorim?,patrcia_amorim,patrcia_amorim,,,type_true,chairman,chairman,name,manager,yes
+791,C,Which broadcast area of CFRX is also the palce of birth of Anthony Raymond ?,cfrx,cfrx,anthony_raymond_ceresko,anthony_raymond_ceresko,type_true,broadcastArea,broadcastArea,placeOfBirth,birthPlace,no
+792,C,For how many PMs did the politician work whose successor was Kingsley Wood?,kingsley_wood,kingsley_wood,,,type_true,successor,successor,primeminister,occupation,yes
+793,S,Was Love Hurts in Short Cut Draw Blood?,love_hurts,,short_cut_draw_blood,short_cut_draw_blood,type_true,album,notableWork,,,no
+794,C,Count the writers whose work has been played in NY?,new_york,new_york,,,type_true,place,prospectTeam,writer,writer,no
+795,C,Give me the home town of all musical artists who uses Guitar as instrument ?,guitar,,,,type_true,instrument,computingPlatform,hometown,basedOn,yes
+796,S,What are the airline hubs of Cascade Airways?,union_of_cambodian_democrats,cascade_airways,,,type_true,ideology,ideology,,,no
+797,S,Was Marshall Arisman the cover artist in american psycho?,american_psycho,american_psycho,marshall_arisman,marshall_arisman,type_true,coverArtist,coverArtist,,,no
+798,C,People in the royal Thai army follow which religion?,royal_thai_army,royal_thai_marine_corps,,,type_false,branch,militaryBranch,religion,religion,yes
+799,C,What city is located on the mouth of Duwamish River?,duwamish_river,duwamish_river,,,type_true,riverMouth,riverMouth,cities,city,no
+800,C,Which party won the elections when Y.S. Rajasekhara Reddy was in power?,y._s._rajasekhara_reddy,y._s._rajasekhara_reddy,,,type_true,leader,successor,affiliation,party,yes
+801,S,Is Henry David Thoreau interested in Politics?,henry_david_thoreau,henry_david_thoreau,politics,politics,type_true,mainInterests,mainInterest,,,no
+802,C,VP-8 and VP-10 shares which command structure ?,vp-8,vp-8,vp-10,,type_true,commandStructure,commandStructure,commandStructure,commandStructure,no
+803,S,List the people residing in Wilton  Connecticut?,wilton_connecticut,wilton_connecticut,,,type_true,residence,residence,,,no
+804,S,Does Fa'a' International Airport serve tahiti too?,fa'a'_international_airport,fa'a'_international_airport,tahiti,,type_true,cityServed,hubAirport,,,no
+805,S,Does Dan River flow into the Jordan Valley?,jordan_river,jordan,dan_river_(middle_east),dan_river_(middle_east),type_true,leftTributary,mouthMountain,,,no
+806,S,Music of how many things has been given by Akira Ifukube?,akira_ifukube,akira_ifukube,,,type_true,music,musicComposer,,,no
+807,S,Is north caucasian emirate have an islamic government?,north_caucasian_emirate,north_caucasian_emirate,islam,islam,type_true,governmentType,governmentType,,,no
+808,C,In how many states can one find Burr Tuss kind of bridges?,burr_truss,burr_truss,,,type_true,style,architecturalStyle,state,state,yes
+809,C,What are the television shows whose company is owned by Viacom?,viacom_(original),viacom_(original),,,type_true,owningCompany,owningCompany,company,company,yes
+810,S,What is the origin of Xynisteri?,xynisteri,xynisteri,,,type_true,origin,origin,,,no
+811,C,In which city was the film star of Singhasan Battisi born ?,singhasan_battisi_(tv_series),singhasan_battisi_(tv_series),,,type_true,starring,starring,birthPlace,city,no
+812,C,What are some other things developed by the company who made the remote desktop protocol?,remote_desktop_protocol,remote_desktop_protocol,,,type_true,products,product,product,product,yes
+813,C,What is the band with previous members  Kevin Jonas and Joe Jonas?,kevin_jonas,kevin_jonas,joe_jonas,joe_jonas,type_true,pastMembers,starring,pastMembers,bandMember,yes
+814,S,Name the nearest city to David W. Brown House ?,david_w._brown_house,david_w._brown_house,,,type_true,nearestCity,nearestCity,,,no
+815,C,In which country does the publishing house exist which was cofounded by Panos Loannides?,panos_ioannides,panos_ioannides,,,type_true,founder,founder,country,country,yes
+816,S,List all the awards won by the artist who has won SIGGRAPH ?,siggraph,siggraph,,,type_false,award,award,,,no
+817,S,How many movies have been directed by Orson Welles ?,orson_welles,orson_welles,,,type_false,director,director,,,no
+818,C,Name the common home port of the Trishna (yacht) and INS Viraat (R22)?,trishna_(yacht),trishna_(yacht),ins_viraat_(r22),ins_viraat_(r22),type_true,homeport,operator,homeport,builder,no
+819,S,Who designed the language integrated query?,language_integrated_query,language_integrated_query,,,type_true,designer,designer,,,no
+820,C,List the associates of bands which have a label by Motown ?,motown,motown,,,type_true,recordLabel,foundedBy,associatedActs,bandMember,yes
+821,C,Which borough is common for Duddeston and Bordesley railway station ?,duddeston_railway_station,duddeston,bordesley_railway_station,bordesley_railway_station,type_true,borough,district,borough,operatedBy,no
+822,C,Name the office holder whose final resting place is North Bend and was part of Siege of fort recovery conflict ?,siege_of_fort_recovery,,north_bend_ohio,,type_true,battle,battle,restingplace,restingPlace,yes
+823,C,In which fields have people born in Lausanne worked?,lausanne,lausanne,,,type_false,placeOfBirth,placeOfBurial,fields,field,no
+824,C,For whom did Michael Springer palyed for which is also had a former student named Donald Brooks ?,michael_springer,michael_springer,donald_brooks,donald_brooks,type_true,team,team,education,education,no
+825,C,How many artists have collaborated with famous guitar players?,guitar,,,,type_true,notableInstruments,family,associatedMusicalArtist,founder,yes
+826,C,What have some US citizens died of?,united_states,,,,type_false,citizenship,deathCause,deathCause,deathCause,no
+827,C,What are some famous veterinary physicians known for?,veterinary_physician,veterinary_medicine,,,type_false,field,knownFor,knownFor,knownFor,no
+828,S,Is the Hyundai Lavita assembled in Kulim?,hyundai_lavita,hyundai_lavita,kulim,kulim,type_true,assembly,designCompany,,,no
+829,C,Name the sea into which Danish Straits flows and has Kaliningrad as one of the city on the shore ?,kaliningrad,kaliningrad,danish_straits,danish_straits,type_true,cities,capital,outflow,outflow,yes
+830,S,Was Kevin Rudd the PM of Julia Gillard?,julia_gillard,julia_gillard,kevin_rudd,kevin_rudd,type_true,primeMinister,primeMinister,,,no
+831,C,Which employer of Michael M. Sears is also the producer of Delta III ?,michael_m._sears,michael_m._sears,delta_iii,delta_iii,type_true,employer,employer,manufacturer,manufacturer,no
+832,C,Guggenheim family is the cofounder of a company that invested stocks in which baseball teams?,guggenheim_family,guggenheim_family,,,type_true,founder,foundedBy,owner,product,yes
+833,S,Who operates Liverpool Playhouse ?,liverpool_playhouse,liverpool_playhouse,,,type_true,operatedBy,operatedBy,,,no
+834,S,where did Deion Sanders debut?,deion_sanders,deion_sanders,,,type_true,debutteam,debutTeam,,,no
+835,C,Name the tv show with judges Randy Jackson and Jennifer Lopez?,randy_jackson,randy_jackson,jennifer_lopez,jennifer_lopez,type_true,judges,formerTeam,judges,subsequentWork,yes
+836,C,What is the total number of professions in which someone who has suicided worked?,suicide,,,,type_true,deathCause,occupation,occupation,occupation,no
+837,C,What kind of games are made by Interplay Entertainment?,interplay_entertainment,interplay_entertainment,,,type_false,publisher,developer,genre,genre,yes
+838,C,What acts and artists are associated with people who have worked with Divertis?,divertis,divertis,,,type_true,associatedActs,associatedBand,associatedMusicalArtist,occupation,no
+839,S,List all the writers of the comics which has Robert Bernstein as one of the writer ?,robert_bernstein_(comics),robert_bernstein_(comics),,,type_false,writers,writer,,,yes
+840,S,To which educational institute does Cornell University Press belong to?,cornell_university_press,cornell_university_press,,,type_true,parentCompany,parentCompany,,,no
+841,C,What city was recorded in Live in detroit which is also the official residence of ken Holland ?,live_in_detroit_mi,detroit,ken_holland,ken_holland,type_true,recordedIn,recordedIn,residence,residence,no
+842,S,Is Sloth in the Chordate phylum?,sloth,sloth,chordate,chordate,type_true,phylum,phylum,,,no
+843,S,Does Chicago own the Monroe Station?,monroe_station_(cta_blue_line),monroe_station_(cta_blue_line),chicago,,type_true,owned,country,,,no
+844,C,Name the children of the person who is the star of The Weathered Underground ?,the_weathered_underground,,,,type_true,starring,starring,children,child,yes
+845,C,Who are the producers of the movies  which has music by Gary Chang ?,gary_chang,gary_chang,,,type_true,music,musicComposer,producer,producer,yes
+846,C,Whose shrines are in a place governed by Justin Trudeau?,justin_trudeau,justin_trudeau,,,type_true,leaderName,leaderName,majorShrine,veneratedIn,no
+847,C,What are some people born in NY known for?,new_york_city,new_york_city,,,type_false,birthPlace,deathCause,knownFor,knownFor,no
+848,S,Name the awards won by Elie Wiesel ?,elie_wiesel,elie_wiesel,,,type_true,awards,award,,,no
+849,C,Organization holding stocks of  Galician and German wikipedias?,galician_wikipedia,galician_wikipedia,german_wikipedia,,type_true,owner,language,owner,owner,no
+850,S,Name the local authority of Trinity School Brentwood ?,trinity_school_brentwood,,,,type_true,localAuthority,localAuthority,,,no
+851,S,Is Baker's Dozen Donuts in the coffee industry?,baker's_dozen_donuts,baker's_dozen_donuts,coffee,coffee,type_true,industry,industry,,,no
+852,C,Where in the us military did pierre r graham and edwin f hunter work?,pierre_r._graham,,edwin_f._hunter,,type_true,branch,militaryBranch,branch,militaryRank,no
+853,C,What are some products of the the company whose subsidiary is Sony Corp shareholders and subsidies?,sony_corporation_shareholders_and_subsidiaries,sony_corporation_shareholders_and_subsidiaries,,,type_true,subsidiary,subsidiary,manufacturer,product,no
+854,C,Which fictional character portrayed in Terminator 2: Judgment Day is painted by Josh Friedman?,terminator_2:_judgment_day,terminator_2:_judgment_day,josh_friedman,josh_friedman,type_true,portrayer,portrayer,creator,creator,yes
+855,C,What is the common ethnicity of the Maike Evers and Francisco Lachowski ?,maike_evers,maike_evers,francisco_lachowski,francisco_lachowski,type_true,ethnicity,ethnicity,ethnicity,ethnicity,no
+856,C,What is the base currency of the country which operates the Marion Dufresne?,marion_dufresne_(1995),marion_dufresne_(1995),,,type_true,operator,operator,currency,currency,no
+857,C,List all the movies whose directors were born in Kenosha Wisconsin?,kenosha_wisconsin,kenosha_wisconsin,,,type_true,birthPlace,birthPlace,director,picture,no
+858,C,Give me all magazines whose founder died in Berkeley California?,berkeley_california,berkeley_california,,,type_true,deathPlace,deathPlace,founder,founder,yes
+859,C,Cologny and Lancy are the neighboring municipalities of which place ?,cologny,cologny,lancy,lancy,type_true,neighboringMunicipalities,neighboringMunicipality,neighboringMunicipalities,neighboringMunicipality,yes
+860,C,What are some musical artists associated with the ones signed up with EMI?,emi,emi,,,type_true,recordLabel,mountainRange,associatedMusicalArtist,associatedMusicalArtist,yes
+861,C,Ricky Gervais is the executive producer of the series having how many fictional characters?,ricky_gervais,ricky_gervais,,,type_true,executiveProducer,executiveProducer,series,genre,yes
+862,C,Name the river with Reading Brekshire in its path and mouth place is Sothend-on-sea ?,reading_berkshire,,southend-on-sea,southend-on-sea,type_true,city,mouthMountain,mouthPlace,mouthPlace,yes
+863,C,What award has been awarded to both Dion Beebe and Charles LeMaire?,dion_beebe,dion_beebe,charles_lemaire,charles_lemaire,type_true,award,award,awards,award,no
+864,C,What religions are followed by members of the societies whose architectural influences can be seen on the Sanggar Agung ?,sanggar_agung,sanggar_agung,,,type_true,architecturalStyle,architecturalStyle,religion,religion,no
+865,C,Where is the school which is the rival of Somerset Berkley Regional High?,somerset_berkley_regional_high_school,somerset_berkley_regional_high_school,,,type_true,rival,rival,region,region,yes
+866,C,Name the company whose key person is Raymond Conner and produces Boeing CH-47 Chinook?,raymond_conner,raymond_conner,boeing_ch-47_chinook,boeing_ch-47_chinook,type_true,keyPeople,keyPerson,products,product,yes
+867,C,In which countries is coconut used as a food ingredient?,coconut,coconut,,,type_true,ingredient,ingredient,country,country,yes
+868,C,Who is considered to be the deciding person when it comes to crustaceans from the Balanidae family?,balanidae,balanidae,,,type_true,family,family,binomialAuthority,family,yes
+869,S,What is the river whose source is Lake Ontario?,lake_ontario,lake_ontario,,,type_true,source,mouthMountain,,,no
+870,S,Which rivers have source origins as north western  Zambia ?,north-western_province_zambia,north-western_province_zambia,,,type_false,sourceRegion,sourceRegion,,,no
+871,C,Who is  related to Kelly Osbourne & Ozzy Osbourne?,kelly_osbourne,,ozzy_osbourne,,type_true,relatives,associatedMusicalArtist,relatives,relative,no
+872,S,Where was  William Anthony  trained ?,william_anthony_(artist),william_anthony_(artist),,,type_true,training,training,,,no
+873,C,How many artists have their works in the Sao Paolo Museum of Art?,s茫o_paulo_museum_of_art,,,,type_true,museum,museum,artist,foundationPlace,yes
+874,S,Count the battles fought by Raoul Magrin Vernerey?,raoul_magrin-vernerey,raoul_magrin_vernerey,,,type_false,battles,battle,,,no
+875,C,What is the military branch of the William French Smith which is also the branch of Pierre R. Graham ?,william_french_smith,william_french_smith,pierre_r._graham,pierre_r._graham,type_true,militaryBranch,militaryBranch,branch,militaryBranch,no
+876,C,Where were sverre krogh sundbo and havard vad petersson born?,sverre_krogh_sundbo,sverre_krogh_sundbo,havard_vad_petersson,havard_vad_petersson,type_true,birthPlace,birthPlace,placeOfBirth,birthPlace,no
+877,C,What are the musicals whose musicians worked under Sony Music Entertainment?,sony_music_entertainment,sony_music_entertainment,,,type_true,label,owningCompany,music,basedOn,yes
+878,C,List the award which have been won by both Charles LeMaire and Nick Park ?,charles_lemaire,charles_lemaire,nick_park,nick_park,type_true,award,award,award,award,no
+879,S,Which scientist was advised by John Robert Woodyard?,john_robert_woodyard,john_robert_woodyard,,,type_true,doctoralAdvisor,doctoralAdvisor,,,no
+880,C,In how many places are Marjas found?,marja',marja',,,type_false,title,occupation,location,location,yes
+881,C,Who is  venerated in  Judaism and Islam?,judaism,judaism,islam,islam,type_true,veneratedIn,veneratedIn,veneratedIn,veneratedIn,no
+882,C,Which child of Jack Ferguson became a Prime Minister?,jack_ferguson,jack_ferguson,,,type_false,child,child,primeminister,child,no
+883,S,Name the team manger of Middlebrough F.C season 2006-07 ?,2006?7_middlesbrough_f.c._season,,,,type_false,manager,team,,,no
+884,C,In which fields are the graduates of Worcester College Oxford working?,worcester_college_oxford,worcester_college_oxford,,,type_true,almaMater,education,field,field,no
+885,S,Where can one find the Dzogchen Ponolop Rinpoche?,dzogchen_ponlop_rinpoche,dzogchen_ponlop_rinpoche,,,type_true,location,location,,,no
+886,C,Where do beauty queens with brown hair reside?,brown_hair,brown_hair,,,type_true,hairColor,family,residence,associatedMusicalArtist,no
+887,C,What is the party of the politicians whose children is Sanjay Gandhi ?,sanjay_gandhi,sanjay_gandhi,,,type_true,children,relation,party,otherParty,yes
+888,C,Who is the owner of the FC which owns the Cobham Training Centre?,cobham_training_centre,cobham_training_centre,,,type_true,owner,owner,owner,owner,yes
+889,S,Which country's leader  is Giuseppe Bertello?,giuseppe_bertello,giuseppe_bertello,,,type_true,leader,leader,,,no
+890,C,What is the total number of software whose programming language is C++ and operating system is Microsoft Windows?,c++,c++,microsoft_windows,microsoft_windows,type_true,programmingLanguage,programmingLanguage,operatingSystem,operatingSystem,no
+891,C,who are starring in the movies written by Mark Sandrich ?,mark_sandrich,mark_sandrich,,,type_true,writer,director,starring,starring,yes
+892,C,In which city is the sister station of KTXY located ?,ktxy,ktxy,,,type_true,sisterStation,sisterStation,city,city,no
+893,S,Is Maria Sharapova the silver medalist of Tennis at the 2012 Summer Olympics  Women's singles?,tennis_at_the_2012_summer_olympics_鈥揰women's_singles,,maria_sharapova,maria_sharapova,type_true,silverMedalist,silverMedalist,,,no
+894,C,Where do the rivers starting from Zambia end?,zambia,zambia,,,type_false,sourceCountry,mouthCountry,riverMouth,riverMouth,yes
+895,S,What is Naval Support Activity Naples a part of?,naval_support_activity_naples,naval_support_activity_naples,,,type_true,type,garrison,,,no
+896,S,List the services provided by the company which provides Microsoft azure as one of the service ?,microsoft_azure,microsoft_azure,,,type_false,services,operatingSystem,,,yes
+897,C,Who was member of boards at Royal Society and Trinity House?,royal_society,,trinity_house,,type_true,board,board,board,board,no
+898,C,Which serving railway line of the Daund Junction railway station is the home port of INS Viraat ?,ins_viraat_(r22),ins_viraat_(r22),daund_junction_railway_station,daund_junction_railway_station,type_true,homeport,homeport,servingRailwayLine,servingRailwayLine,no
+899,C,How many religions are followed by organizations which are internationally known as the muslim brotherhood?,muslim_brotherhood,muslim_brotherhood,,,type_true,international,otherParty,religion,religion,no
+900,C,Which series was written by Eric Jendresen and John Orloff?,erik_jendresen,eric_jendresen,john_orloff,john_orloff,type_true,writer,notableWork,writer,writer,yes
+901,C,Count the number of musical work which were sold by Sony Music?,sony_music_entertainment,sony_music_entertainment,,,type_true,label,owningCompany,music,musicalArtist,yes
+902,C,How many awards have been given to the founder of Grameen Bank?,grameen_bank,grameen_bank,,,type_true,founder,foundedBy,award,award,no
+903,S,Name the city of Phil Ellena ?,phil-ellena,phil-ellena,,,type_true,city,city,,,no
+904,S,To which nation did David Animle Hanses owe his allegiance?,david_animle_hansen,david_animle_hansen,,,type_false,allegiance,militaryBranch,,,no
+905,S,Count the tenants of MasterCard Centre?,mastercard_centre,mastercard_centre,,,type_true,tenants,tenant,,,no
+906,C,Which company has developed games whose music is done by Gerard Marino?,gerard_marino,gerard_marino,,,type_true,composer,musicComposer,developer,developer,yes
+907,C,Which sea is surrounded by Rostock and Kaliningrad?,rostock,f.c._hansa_rostock,kaliningrad,kaliningrad,type_true,cities,placeOfBurial,cities,country,yes
+908,C,List sports managers who managed Middlesbrough F.C. and England national under-21 football team?,middlesbrough_f.c.,middlesbrough_f.c.,england_national_under-21_football_team,england_national_under-21_football_team,type_true,managerClub,operator,managerclubs,managerClub,yes
+909,C,Whose commanders are John Mc Ewen and Park Chunghee?,john_mc_ewen,john_mc_ewen,park_chung-hee,park_chung-hee,type_true,commander,commander,commander,commander,no
+910,C,Who owns the airport in Paphos?,paphos_district,paphos_district,,,type_false,city,city,owner,managerClub,yes
+911,S,List the guests of On Broadway ?,on_broadway_(smash),broadway_theatre,,,type_true,guests,guest,,,no
+912,S,Is Christchurch the largest city of South Island?,south_island,south_island,christchurch,christchurch,type_true,largestCity,largestCity,,,no
+913,C,Name books with publisher as Francisco de Robles and writer as Miguel de Cervantes ?,francisco_de_robles,francisco_de_robles,miguel_de_cervantes,miguel_de_cervantes,type_true,publisher,publisher,author,author,yes
+914,S,Which universities are also known as the Tulane Green wave?,tulane_green_wave,tulane_green_wave,,,type_true,nickname,school,,,no
+915,C,Who wrote the musical whose composer is Emil Dean Zoghby?,emil_dean_zoghby,emil_dean_zoghby,,,type_true,musicBy,musicBy,author,author,yes
+916,C,Where did the conflict take place where Louis Briere de I'Isle was a commander?,louis_bri猫re_de_l'isle,,,,type_true,commander,commander,territory,territory,yes
+917,S,what has been developed by John Fanning?,john_fanning_(businessman),john_fanning_(businessman),,,type_true,developer,developer,,,no
+918,C,What are the houses of the legislature where the leader is called Pullaiahgaripalli ?,pullaiahgaripalli,pullaiahgaripalli,,,type_true,leaderTitle,leaderName,houses,majorShrine,yes
+919,C,In which city can I find both the office of Elasticsearch and the Yellow Claw DJ?,yellow_claw_(djs),yellow_claw_(djs),elasticsearch,elasticsearch,type_true,location,associatedMusicalArtist,location,programmingLanguage,no
+920,S,is blue lagoon island a part of the bahamas achipelago?,blue_lagoon_island,blue_lagoon_island,the_bahamas,,type_true,archipelago,archipelago,,,no
+921,S,Who are currently playing for Barcelona FC?,fc_barcelona,fc_barcelona,,,type_true,currentclub,owningCompany,,,no
+922,C,Who are the players whose current clubs have Ferran Soriano as chairman?,ferran_soriano,,,,type_true,chairman,chairman,currentclub,managerClub,yes
+923,S,What type of engines are utilised by Purvis Eureka?,purvis_eureka,purvis_eureka,,,type_false,engine,layout,,,no
+924,S,Is Egyptian Arabic belong to the Central Semitic Languages family?,egyptian_arabic,egyptian_arabic,central_semitic_languages,central_semitic_languages,type_true,languageFamily,spokenIn,,,no
+925,C,Name the route end of the North-South Transport Corridor and Mumbai Vadodara Expressway?,north-south_transport_corridor,north-south_transport_corridor,mumbai_vadodara_expressway,mumbai_vadodara_expressway,type_true,routeEnd,routeJunction,routeEnd,routeStart,no
+926,C,Name the television show whose subsequent work is Crusade and Composer is Stewart Copeland?,crusade_(tv_series),crusade_(tv_series),stewart_copeland,stewart_copeland,type_true,subsequentWork,subsequentWork,composer,composer,yes
+927,S,Who did Daniel Gibson marry?,daniel_gibson,daniel_gibson,,,type_true,spouse,citizenship,,,no
+928,S,How many movies are distributed by Cinema International Corporation?,cinema_international_corporation,cinema_international_corporation,,,type_false,distributor,distributor,,,no
+929,S,How many apes are there?,ape,,,,type_true,family,origin,,,no
+930,S,How many cities are close to Lake Victoria?,lake_victoria,lake_victoria,,,type_true,nearestCity,nearestCity,,,no
+931,C,Where did the war take place where one of the commander was Zuo Zongtang?,zuo_zongtang,zuo_zongtang,,,type_true,commander,commander,territory,territory,yes
+932,S,What is the name of the homeground of football team Panionios G.S.S.?,2013C14_panionios_g.s.s._season,2013C14_panionios_g.s.s._season,,,type_false,ground,homeStadium,,,no
+933,C,Give me the total number of television shows whose theme music composer is Julian Gingell and created by  Simon Fuller?,julian_gingell,julian_gingell,simon_fuller,simon_fuller,type_true,themeMusicComposer,composer,creator,associatedMusicalArtist,no
+934,S,Is Latin the official language of Sovereign Military Order of Malta?,sovereign_military_order_of_malta,malta,latin,latin_pop,type_true,officialLanguage,officialLanguage,,,no
+935,S,List the  outflow of Lake Uniamsi?,lake_uniamsi,lake_uniamsi,,,type_true,outflow,outflow,,,no
+936,C,Which shows are from a company whose subsidiary is Viacom Productions?,viacom_productions,viacom_productions,,,type_true,subsidiary,company,company,company,yes
+937,S,Who edited  British Gazette ?,british_gazette,british_gazette,,,type_true,editor,editor,,,no
+938,C,Count the total number  of hometown of the gymnasts whose one of the hometown in Russia ?,russia,russia,,,type_true,hometown,mountainRange,hometown,hometown,no
+939,C,Who all have succeeded the kings buried in Rome?,rome,rome,,,type_true,placeOfBurial,successor,successor,appointer,yes
+940,C,How many other battles have the military person fought whose one of the battles is World War II ?,world_war_ii,world_war_ii,,,type_true,battles,battle,battles,battle,no
+941,S,Name the nationalteam of Trn Vit Hng ?,trn_vit_hng,trn_vit_hng,,,type_true,nationalteam,club,,,no
+942,C,Through which states do the rivers flow which join in the republican river from the left?,republican_river,republican_river,,,type_true,leftTributary,rightTributary,state,state,no
+943,C,Under which common jurisdiction do Trinity School Brentwood and Buckhurst Hill County High School fall?,trinity_school_brentwood,,buckhurst_hill_county_high_school,buckhurst_hill_county_high_school,type_true,localAuthority,gender,localAuthority,localAuthority,no
+944,S,How many television shows have  Fox Broadcasting Company as their channel?,fox_broadcasting_company,fox_broadcasting_company,,,type_false,channel,channel,,,no
+945,S,How many things are written in C++?,c++,c++,,,type_true,programmingLanguage,author,,,no
+946,C,List the mammals whose taxonomy is Diprotodontia and phylum is Chordate?,diprotodontia,diprotodontia,chordate,chordate,type_true,order,order,phylum,phylum,yes
+947,C,Which collaborator of Nice and Smooth wrote Same Song ?,nice_&_smooth,,same_song_(digital_underground_song),,type_true,associatedBand,writer,writer,writer,no
+948,S,Who is the child of John Tyler Sr .?,john_tyler_sr.,john_tyler_sr.,,,type_true,child,child,,,no
+949,S,What is the country with native language as Languages of Ethiopia?,languages_of_ethiopia,languages_of_ethiopia,,,type_false,language,language,,,no
+950,C,The successor of Ulrich II Count of East Frisia was born in what place?,ulrich_ii_count_of_east_frisia,,,,type_true,successor,successor,placeOfBirth,birthPlace,no
+951,S,Which artists trained in San Francisco Art Institute?,san_francisco_art_institute,san_francisco_art_institute,,,type_true,training,training,,,no
+952,C,What is the launch site of the Juno I which was also the ground of 2016 Fort Lauderdale Strikers season ?,juno_i,juno_i,2016_fort_lauderdale_strikers_season,2016_fort_lauderdale_strikers_season,type_true,launchSite,launchSite,ground,ground,no
+953,C,From which countries are the people from who are an academic authority of the Western pygmy blue species?,western_pygmy_blue,western_pygmy_blue,,,type_true,binomialAuthority,order,citizenship,citizenship,yes
+954,S,Is Henry Knox a commander of Continental Artillery Regiment?,continental_artillery_regiment,continental_artillery_regiment,henry_knox,henry_knox,type_true,notableCommander,notableCommander,,,no
+955,C,Brian Moriarty designed video games written by whom?,brian_moriarty,brian_moriarty,,,type_true,designer,writer,writer,composer,yes
+956,C,What is the religion of the president who won the Mongolian legislative election 2004 ?,mongolian_legislative_election_2004,,,,type_true,leader,firstLeader,religion,religion,no
+957,S,Was John muir one of the first to ascend a mountain on Mt hoffmann?,mount_hoffmann,mount_hoffmann,john_muir,john_muir,type_true,firstAscentPerson,firstAscentPerson,,,no
+958,S,Does AMC Gremlin have the Volkswagen engine?,amc_gremlin,amc_gremlin,volkswagen,volkswagen,type_true,engine,engine,,,no
+959,S,Which footballers did their high school in west Sacramento california? ,west_sacramento_california,,,,type_true,highSchool,city,,,no
+960,C,What is the state of origin of the president whose alma mater is Hellenic Naval Academy ?,hellenic_naval_academy,hellenic_naval_academy,,,type_true,almaMater,almaMater,stateOfOrigin,stateOfOrigin,yes
+961,C,Whose mayors are affiliated with Christen-Democratisch en Vlaams?,christen-democratisch_en_vlaams,christen-democratisch_en_vlaams,,,type_true,affiliation,affiliation,leaderName,part,no
+962,C,What company is the one which wrote the google web toolkit and PlayN?,google_web_toolkit,google_web_toolkit,playn,playn,type_true,author,author,author,parentCompany,no
+963,C,Who fought in the battle at Tupelo Mississippi?,tupelo_mississippi,tupelo_mississippi,,,type_false,place,place,combatant,battle,yes
+964,S,which movies have been published by Cinema International Corporation?,cinema_international_corporation,cinema_international_corporation,,,type_true,distributor,distributor,,,no
+965,S,Count the number of characters in Batman Live?,batman_live,batman_live,,,type_true,characters,country,,,no
+966,S,Did Stanlee write the Tales of Suspense?,tales_of_suspense,tales_of_suspense,stan_lee,stan_lee,type_true,writers,writer,,,no
+967,C,Who is the head coach of the teams in Middlesbrough FC?,middlesbrough_f.c.,,,,type_true,club,team,manager,coach,no
+968,S,Copley Medal has been awarded to which scientists?,copley_medal,copley_medal,,,type_true,awards,award,,,no
+969,C,to which university did both the Stanford Cardinal and Gerald Reaven go?,stanford_cardinal,stanford_university,gerald_reaven,gerald_reaven,type_true,university,university,institution,education,no
+970,C,Which american football team is owned by Mark davis and is located in O.co Colliseum ?,mark_davis_(american_football),mark_davis_(american_football),o.co_coliseum,o.co_coliseum,type_true,owner,owner,locationCity,locationCity,yes
+971,C,How many books are written by the author who is famous for Novelas Ejemplares?,novelas_ejemplares,novelas_ejemplares,,,type_true,notableWork,notableWork,author,author,yes
+972,S,To which city does Northeast Library belong?,northeast_library,northeast_library,,,type_true,city,city,,,no
+973,S,Which comic characters were created by Paul Dini?,paul_dini,paul_dini,,,type_true,creators,creator,,,no
+974,S,What developed EMMS?,emms,ems_(river),,,type_true,developer,programmingLanguage,,,no
+975,S,Which hockey team is head coached by Bill Peters?,bill_peters_(ice_hockey),william_peters_(australian_politician),,,type_false,headCoach,manager,,,no
+976,S,How many companies were started in the states?,united_states,,,,type_false,foundationPlace,foundationPlace,,,no
+977,C,List the television shows one of whose distributor's divisions is Warner Bros. Animation.,warner_bros._animation,warner_bros._animation,,,type_true,divisions,division,distributor,editing,yes
+978,C,Who has manufactured vehicles designed originally by NASA?,nasa,nasa,,,type_false,designCompany,manufacturer,manufacturer,manufacturer,yes
+979,C,What subsequent work of Moondog Matinee has the composer of Motorpsycho Nitemare ?,motorpsycho_nitemare,motorpsycho_nitemare,moondog_matinee,moondog_matinee,type_true,composer,composer,subsequentWork,subsequentWork,no
+980,S,Who is the narrator of The Incredible Hulk  1982 TV series ?,the_incredible_hulk_(1982_tv_series),,,,type_true,narrated,narrator,,,no
+981,C,Who owns the company that made the Edsel Villager?,edsel_villager,edsel_villager,,,type_false,products,relatedMeanOfTransportation,parent,parentCompany,no
+982,S,Giorgos Kaminis is the mayor of what?,giorgos_kaminis,giorgos_kaminis,,,type_true,mayor,mayor,,,no
+983,S,Name the incumbent of Linda Jenness ?,linda_jenness,linda_jenness,,,type_true,incumbent,incumbent,,,no
+984,C,Where did the members of judge advocate general corps study?,judge_advocate_general's_corps_united_states_army,judge_advocate_general's_corps,,,type_true,militaryRank,militaryBranch,almaMater,education,no
+985,C,How many things are produced by companies located in Tehran?,tehran,iran,,,type_true,location,locatedInArea,product,manufacturer,no
+986,C,Who was in the missions of Apollo 11 and Gemini 8?,apollo_11,apollo_11,gemini_8,gemini_8,type_true,mission,country,mission,country,no
+987,C,Which ethinicity of  Riley Reid is the state of origin of Holmes Colbert?,riley_reid,riley_reid,holmes_colbert,holmes_colbert,type_true,ethnicity,ethnicity,stateOfOrigin,stateOfOrigin,no
+988,S,Where was Girls (The Prodigy song)  recorded ?,girls_(the_prodigy_song),girls_(the_prodigy_song),,,type_true,recorded,recordedIn,,,no
+989,S,Who are the scientists known for the Manhattan Project?,manhattan_project,manhattan_project,,,type_true,knownFor,knownFor,,,yes
+990,C,What are the regions in which the distributor of Secrets and Lies serves ? ,secrets_and_lies_(u.s._tv_series),secrets_and_lies_(u.s._tv_series),,,type_true,distributor,distributor,regionServed,locationCity,no
+991,C,Which is the common past team of the Charlie Justice (American football player) and Bobby Hoppe ?,charlie_justice_(american_football_player),,bobby_hoppe,bobby_hoppe,type_true,pastteams,debutTeam,pastteams,formerTeam,no
+992,C,Which city council owns the Ted Williams tunnel and Leonard Memorial ridge?,ted_williams_tunnel,ted_williams_tunnel,leonard_p._zakim_bunker_hill_memorial_bridge,leonard_p._zakim_bunker_hill_memorial_bridge,type_true,owner,operatedBy,owner,significantProject,no
+993,C,Whose relatives are Clan McDuck and Huey Dewey and Louie?,clan_mcduck,clan_mcduck,huey_dewey_and_louie,huey,type_true,relatives,relative,relatives,relative,no
+994,S,In which city did The Ultimate Fighter : Team Rousey vs. Team Tate take place ?,the_ultimate_fighter:_team_rousey_vs._team_tate,,,,type_false,city,followingEvent,,,no
+995,S,Muhammad Yunus has won how many awards?,muhammad_yunus,muhammad_yunus,,,type_true,award,award,,,no
+996,C,How many people hold important positions alongwith Donna Shalala?,donna_shalala,,,,type_true,keyPerson,keyPerson,keyPeople,ground,no
+997,C,Which currency can I use both in Kerguelen islands and French southern and antarctic lands?,french_southern_and_antarctic_lands,french_southern_and_antarctic_lands,kerguelen_islands,kerguelen_islands,type_true,currency,currency,currency,currency,no
+998,S,Is Brazilian jiu-jitsu the trainer of Nick Diaz?,nick_diaz,nick_diaz,brazilian_jiu-jitsu,brazilian_jiu-jitsu,type_true,trainer,trainer,,,no
+999,C,What is the total number of other combatant of the military conflicts whose combatant is Choctaw?,choctaw,choctaw,,,type_true,combatant,related,combatant,field,no
